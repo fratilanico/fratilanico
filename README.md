@@ -58,17 +58,51 @@
 
 <br/><br/>
 
-```
-╔════════════════════════════════════════════════════════════════════╗
-║                                                                    ║
-║                NICOLAE FRATILA  ·  fratilanico                     ║
-║                Founder & CEO  ·  APEX OS                           ║
-║                Romania 🇷🇴  ·  Building the agent age               ║ 
-║                                                                    ║
-╚════════════════════════════════════════════════════════════════════╝
-```
-
-### `> Agents that build agents. Infrastructure that governs itself.`
+<svg width="700" height="140" viewBox="0 0 700 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f7ff" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#cc00ff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ff8c00" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f7ff"/>
+      <stop offset="50%" stop-color="#cc00ff"/>
+      <stop offset="100%" stop-color="#ff8c00"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c9d1d9"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="140" rx="10" ry="10" fill="#0d1117"/>
+  <rect x="0" y="0" width="700" height="2.5" rx="1" fill="url(#cardBorder)"/>
+  <rect x="0" y="137.5" width="700" height="2.5" rx="1" fill="url(#cardBorder)"/>
+  <rect x="0" y="0" width="2.5" height="140" rx="1" fill="url(#cardBorder)" opacity="0.4"/>
+  <rect x="697.5" y="0" width="2.5" height="140" rx="1" fill="url(#cardBorder)" opacity="0.4"/>
+  <rect x="8" y="8" width="684" height="124" rx="6" ry="6" fill="url(#cardGrad)"/>
+  <circle cx="60" cy="70" r="50" fill="#00f7ff" opacity="0.03"/>
+  <circle cx="640" cy="70" r="50" fill="#ff8c00" opacity="0.03"/>
+  <text x="350" y="42" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="22" font-weight="bold" fill="url(#nameGrad)" letter-spacing="3">
+    NICOLAE FRATILA
+  </text>
+  <text x="350" y="68" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="13" fill="#00f7ff" letter-spacing="2">
+    Founder &amp; CEO  ·  APEX OS
+  </text>
+  <line x1="260" y1="82" x2="440" y2="82" stroke="url(#cardBorder)" stroke-width="0.5" opacity="0.4"/>
+  <text x="350" y="102" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="12" fill="#c9d1d9" letter-spacing="1.5" opacity="0.8">
+    Romania  ·  Building the agent age
+  </text>
+  <text x="350" y="125" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="10" fill="#cc00ff" letter-spacing="2" opacity="0.6">
+    Agents that build agents. Infrastructure that governs itself.
+  </text>
+  <rect x="1" y="1" width="698" height="138" rx="9" ry="9"
+        fill="none" stroke="url(#cardBorder)" stroke-width="1" opacity="0.3"/>
+</svg>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=fratilanico&color=00f7ff&style=flat-square&label=PROFILE+VIEWS)](https://github.com/fratilanico)
 [![GitHub Followers](https://img.shields.io/github/followers/fratilanico?style=flat-square&color=ff00cc&labelColor=080810&label=FOLLOWERS)](https://github.com/fratilanico)
