@@ -247,7 +247,7 @@ $ cat /etc/apex/identity.conf
   <!-- AQUILA box -->
   <rect x="270" y="75" width="260" height="90" rx="8" fill="url(#swAquila)" stroke="#00f7ff" stroke-width="1.2" opacity="0.9"/>
   <text x="400" y="100" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" font-weight="bold" fill="#00f7ff" letter-spacing="2">AQUILA</text>
-  <text x="400" y="118" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#c9d1d9">Orchestrator · Claude Opus 4-6</text>
+  <text x="400" y="118" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#c9d1d9">Orchestrator · claude-sonnet-4-6</text>
   <text x="400" y="135" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#888" letter-spacing="1">Telegram → Decompose → Delegate → Monitor</text>
   <text x="400" y="155" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00f7ff" opacity="0.6">[ READ-ONLY · ZOE TIER ]</text>
   <!-- Connection lines from Aquila to workers -->
@@ -301,17 +301,31 @@ $ cat /etc/apex/identity.conf
 </div>
 
 ```
-┌──────────────┬──────────────────┬─────────────────────────────────────┐
-│  AGENT       │  MODEL           │  ROLE                               │
-├──────────────┼──────────────────┼─────────────────────────────────────┤
-│  Aquila      │  Claude Opus 4   │  Orchestrator — plans, delegates    │
-│  Worker 1    │  Claude Sonnet 4 │  Dev — implementation & scaffolding │
-│  Worker 2    │  Claude Sonnet 4 │  Dev — integration & migration      │
-│  Worker 3    │  Claude Sonnet 4 │  Dev — content & deployment         │
-│  Reviewer    │  Claude Opus 4   │  Triage + quality gate              │
-│  Watchdog    │  Bash/systemd    │  Self-healing supervisor            │
-└──────────────┴──────────────────┴─────────────────────────────────────┘
+┌──────────────┬────────────────────┬─────────────────────────────────────┐
+│  AGENT       │  MODEL             │  ROLE                               │
+├──────────────┼────────────────────┼─────────────────────────────────────┤
+│  Aquila      │  claude-sonnet-4-6 │  Orchestrator — plans, delegates    │
+│  Worker 1    │  Claude Sonnet 4-6 │  Dev — implementation & scaffolding │
+│  Worker 2    │  Claude Sonnet 4-6 │  Dev — integration & migration      │
+│  Worker 3    │  Claude Sonnet 4-6 │  Dev — content & deployment         │
+│  Reviewer    │  Claude Opus 4-6   │  Triage + quality gate              │
+│  Watchdog    │  Bash/systemd      │  Self-healing supervisor            │
+└──────────────┴────────────────────┴─────────────────────────────────────┘
 ```
+
+---
+
+## `> git stats --global`
+
+<div align="center">
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fratilanico&show_icons=true&count_private=true&include_all_commits=true&theme=dark&bg_color=080810&title_color=00f7ff&icon_color=ff00cc&text_color=c9d1d9&border_color=00f7ff&border_radius=8&hide_border=false)](https://github.com/fratilanico)
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=fratilanico&theme=dark&background=080810&ring=00f7ff&fire=ff00cc&currStreakLabel=00f7ff&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=888888&border=00f7ff&border_radius=8)](https://github.com/fratilanico)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fratilanico&layout=compact&count_private=true&theme=dark&bg_color=080810&title_color=00f7ff&text_color=c9d1d9&border_color=00f7ff&border_radius=8&langs_count=8)](https://github.com/fratilanico)
+
+</div>
 
 ---
 
@@ -328,9 +342,9 @@ $ cat /etc/apex/identity.conf
 ║  │                        COMMAND LAYER                                 │  ║
 ║  │    Telegram Bot (@theapexclaw_bot)  ·  Voice + Text + Images         │  ║
 ║  │    /spawn <repo> <task>  ·  /yes  ·  /no  ·  /status                 │  ║
-║  └────────────────────────────────┬─────────────────────────────────────┘  ║
-║                                   │                                        ║
-║  ┌────────────────────────────────▼─────────────────────────────────────┐  ║
+║  └────────────────────────────┬─────────────────────────────────────────┘  ║
+║                               │                                        ║
+║  ┌────────────────────────────▼─────────────────────────────────────┐  ║
 ║  │                     AQUILA GATEWAY  (Node.js)                        │  ║
 ║  │    TASK_PROPOSE parser  ·  Multi-task creation  ·  Claude routing    │  ║
 ║  │    askClaude() with process tracking  ·  120s SIGKILL failsafe       │  ║
@@ -492,17 +506,100 @@ $ cat /etc/apex/identity.conf
 
 ---
 
-## `> git stats --global`
+## `> working-with-me --what-i-offer`
 
-<div align="center">
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│  WORKING WITH ME                                                         │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  If you're building a startup, product, or AI system and you need:      │
+│                                                                         │
+│  ◈  AUTONOMOUS AI SYSTEMS    Agent swarms that plan, build & deploy     │
+│     & AGENT ARCHITECTURE     without constant human supervision.        │
+│                                                                         │
+│  ◈  AI-POWERED LEAD GEN      End-to-end pipeline from discovery to      │
+│     & SALES INFRASTRUCTURE   enriched, qualified, outreach-ready.      │
+│                                                                         │
+│  ◈  SOVEREIGN INFRASTRUCTURE Self-healing, self-governing systems on    │
+│     DESIGN                   Azure that run autonomously 24/7.          │
+│                                                                         │
+│  ◈  RAPID PRODUCT BUILDS     Agent-scaffolded Next.js + Supabase        │
+│     WITH AI ACCELERATION     products shipped in days, not months.     │
+│                                                                         │
+├─────────────────────────────────────────────────────────────────────────┤
+│  CURRENTLY BUILDING FOR:                                                │
+│                                                                         │
+│  ├── Founders who want AI doing the heavy lifting                       │
+│  ├── Teams replacing manual workflows with agent pipelines              │
+│  ├── Businesses that need AI infrastructure, not just AI chat           │
+│  └── Anyone serious about autonomous AI operating at scale              │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fratilanico&show_icons=true&count_private=true&include_all_commits=true&theme=dark&bg_color=080810&title_color=00f7ff&icon_color=ff00cc&text_color=c9d1d9&border_color=00f7ff&border_radius=8&hide_border=false)](https://github.com/fratilanico)
+---
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=fratilanico&theme=dark&background=080810&ring=00f7ff&fire=ff00cc&currStreakLabel=00f7ff&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=888888&border=00f7ff&border_radius=8)](https://github.com/fratilanico)
+## `> curl -s explore.infoacademy.uk | head -n 20`
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fratilanico&layout=compact&count_private=true&theme=dark&bg_color=080810&title_color=00f7ff&text_color=c9d1d9&border_color=00f7ff&border_radius=8&langs_count=8)](https://github.com/fratilanico)
+```
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║   ◈  INFOACADEMY  —  AI-Powered Learning Platform                          ║
+║                                                                            ║
+║   explore.infoacademy.uk                                                   ║
+║                                                                            ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                            ║
+║   A gamified, AI-powered education platform built on APEX OS               ║
+║   infrastructure. Second Brain integration, agent-powered curriculum       ║
+║   generation, and adaptive learning paths that evolve with the learner.    ║
+║                                                                            ║
+║   WHAT IT IS:   The future of structured AI learning — not static          ║
+║                 courses, but living knowledge systems powered by agents.   ║
+║                                                                            ║
+║   BUILT WITH:   Next.js · Supabase · Claude AI · APEX OS agent swarm       ║
+║   STATUS:       Live preview — active daily development by agents          ║
+║   MISSION:      Make deep AI knowledge accessible, gamified, and           ║
+║                 continuously updated by autonomous intelligence.           ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+```
 
-</div>
+---
+
+## `> git log --oneline --shipped --recent`
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│  LATEST SHIPPED  —  Agent-Deployed Momentum                              │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  ✓  apex-os-playground      Experimental apps & agent dashboards        │
+│     └── Live interactive demos of APEX OS capabilities in action        │
+│                                                                         │
+│  ✓  apex-os-skills-engine   Recursive skill learning propagation        │
+│     └── 70+ skills auto-deployed and synced across 49 repositories      │
+│                                                                         │
+│  ✓  apex-lead-gen           6-stage AI enrichment pipeline              │
+│     └── Discovery → scraping → enrichment → scoring → outreach         │
+│                                                                         │
+│  ✓  fratilanico profile     This README — written & deployed by agent   │
+│     └── SVG identity card, swarm diagram, ASCII architecture map        │
+│                                                                         │
+│  ✓  sovereign-governance    Multi-repo governance protocol              │
+│     └── AGENTS.md pointer sync across all 49 repos                     │
+│                                                                         │
+├─────────────────────────────────────────────────────────────────────────┤
+│  ◷  ACTIVE BUILDS:                                                      │
+│                                                                         │
+│  ├── InfoAcademy platform  — gamified AI learning (in progress)        │
+│  ├── APEX OS website v3    — corporate site rebuild (Next.js 16)        │
+│  ├── apex-os-playground    — new agent demo modules shipping weekly     │
+│  └── Sovereign governance  — expanding coverage: 49 → 60+ repos        │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -526,10 +623,21 @@ $ cat /etc/apex/identity.conf
 ```
 ╔════════════════════════════════════════════════════════════════════════╗
 ║                                                                        ║
+║         WANT TO BUILD TOGETHER?                                        ║
+║                                                                        ║
+║         If you're building something ambitious with AI —               ║
+║         or need infrastructure that works while you sleep —            ║
+║         I'd like to hear from you.                                     ║
+║                                                                        ║
+║         → DM on X/Twitter:  @nicofratila                               ║
+║         → LinkedIn:         linkedin.com/in/nicofratila                ║
+║         → Explore APEX OS:  apex.InfoAcademy.uk                        ║
+║         → InfoAcademy:      explore.infoacademy.uk                     ║
+║                                                                        ║
+╠════════════════════════════════════════════════════════════════════════╣
+║                                                                        ║
 ║         APEX OS — The operating system for autonomous AI.              ║
-║                                                                        ║
 ║         Built by agents. Governed by protocol. Commanded by Nico.      ║
-║                                                                        ║
 ║         [ fratilanico ]  ·  2026  ·  All systems operational.          ║
 ║                                                                        ║
 ╚════════════════════════════════════════════════════════════════════════╝
