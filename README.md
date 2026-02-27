@@ -61,9 +61,9 @@
 ```
 ╔════════════════════════════════════════════════════════════════════╗
 ║                                                                    ║
-║           NICOLAE FRATILA  ·  fratilanico                          ║
-║           Founder & CEO  ·  APEX OS                                ║
-║           Romania 🇷🇴  ·  Building the agent age                   ║
+║                NICOLAE FRATILA  ·  fratilanico                     ║
+║                Founder & CEO  ·  APEX OS                           ║
+║                Romania 🇷🇴  ·  Building the agent age               ║ 
 ║                                                                    ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
@@ -101,8 +101,8 @@ $ cat /etc/apex/identity.conf
 │  LOCATION      Romania                                          │
 │  FOCUS         Sovereign AI Infrastructure · Agent Systems      │
 │  MISSION       Replace process with protocol. Replace           │
-│                headcount with intelligence. Build systems        │
-│                that compound while you sleep.                    │
+│                headcount with intelligence. Build systems       │
+│                that compound while you sleep.                   │
 │  PHILOSOPHY    If an agent can do it, no human should.          │
 │  STACK         Azure · Claude AI · Next.js · TypeScript ·       │
 │                Supabase · Node.js · systemd                     │
@@ -119,7 +119,7 @@ $ cat /etc/apex/identity.conf
 
 ```
 ╔════════════════════════════════════════════════════════════════════════════╗
-║                       APEX OS  —  CAPABILITY MAP                          ║
+║                       APEX OS  —  CAPABILITY MAP                           ║
 ╠════════════════════════════════════════════════════════════════════════════╣
 ║                                                                            ║
 ║   APEX OS is not a product. It's an operating system for autonomous AI.    ║
@@ -133,51 +133,51 @@ $ cat /etc/apex/identity.conf
 ```
 ┌──────────────────────────────────────────────────────────────────────────┐
 │  ◈  AGENT SWARM ENGINE                                                   │
-│     5 persistent AI agents (3 Sonnet devs + 1 Opus reviewer +           │
+│     5 persistent AI agents (3 Sonnet devs + 1 Opus reviewer +            │
 │     1 Opus orchestrator) running as systemd services on Azure.           │
-│     Task queue via Supabase. Optimistic locking. Automatic retries.     │
-│     Agents receive tasks via Telegram, triage them, plan PRDs,          │
-│     execute code, push branches, open PRs, review, and report back.    │
+│     Task queue via Supabase. Optimistic locking. Automatic retries.      │
+│     Agents receive tasks via Telegram, triage them, plan PRDs,           │
+│     execute code, push branches, open PRs, review, and report back.      │
 ├──────────────────────────────────────────────────────────────────────────┤
-│  ◈  SELF-HEALING INFRASTRUCTURE                                         │
-│     3-layer protection: Gateway process tracking (120s kill timer),     │
-│     Watchdog supervisor (heartbeat monitoring, stuck task detection,    │
-│     automatic service restart), systemd unit hardening (KillMode,      │
-│     ReadWritePaths, NoNewPrivileges). Zero-downtime self-recovery.     │
+│  ◈  SELF-HEALING INFRASTRUCTURE                                          │
+│     3-layer protection: Gateway process tracking (120s kill timer),      │
+│     Watchdog supervisor (heartbeat monitoring, stuck task detection,     │
+│     automatic service restart), systemd unit hardening (KillMode,        │
+│     ReadWritePaths, NoNewPrivileges). Zero-downtime self-recovery.       │
 ├──────────────────────────────────────────────────────────────────────────┤
-│  ◈  SOVEREIGN GOVERNANCE                                                │
-│     One AGENTS.md to rule them all. Pointer-based sync protocol        │
-│     across 49 repositories. Canonical source of truth in Nico Archive. │
-│     Skills propagation. Cross-repo compliance. RBAC tiers (ZOE/CODEX): │
-│     orchestrators read-only, workers execution-tier.                    │
+│  ◈  SOVEREIGN GOVERNANCE                                                 │
+│     One AGENTS.md to rule them all. Pointer-based sync protocol          │
+│     across 49 repositories. Canonical source of truth in Nico Archive.   │
+│     Skills propagation. Cross-repo compliance. RBAC tiers (ZOE/CODEX):   │
+│     orchestrators read-only, workers execution-tier.                     │
 ├──────────────────────────────────────────────────────────────────────────┤
 │  ◈  SKILLS ENGINE                                                        │
 │     70+ reusable skills that agents invoke dynamically.                  │
-│     Production signals → SKILL.md files → agent capability upgrades.    │
-│     Recursive learning: agents learn from failures and encode fixes     │
-│     as skills for future sessions. Skills scan, register, propagate.   │
+│     Production signals → SKILL.md files → agent capability upgrades.     │
+│     Recursive learning: agents learn from failures and encode fixes      │
+│     as skills for future sessions. Skills scan, register, propagate.     │
 ├──────────────────────────────────────────────────────────────────────────┤
-│  ◈  AI-POWERED LEAD GENERATION                                          │
-│     6-stage enrichment pipeline: Discovery → Scraping → Enrichment →   │
-│     Scoring → Qualification → Outreach. Vertical-specific targeting.   │
-│     Campaign orchestration with send, re-enrich, and go-big endpoints. │
-│     Review queue with auto-promote. CRM integration.                    │
+│  ◈  AI-POWERED LEAD GENERATION                                           │
+│     6-stage enrichment pipeline: Discovery → Scraping → Enrichment →     │
+│     Scoring → Qualification → Outreach. Vertical-specific targeting.     │
+│     Campaign orchestration with send, re-enrich, and go-big endpoints.   │
+│     Review queue with auto-promote. CRM integration.                     │
 ├──────────────────────────────────────────────────────────────────────────┤
 │  ◈  WHATSAPP AUTOMATION                                                  │
-│     Self-hosted multi-session WhatsApp gateway (Baileys).               │
-│     Admin/customer tier boundary enforcement. Claude-powered            │
-│     conversational AI with tool routing. Media handling pipeline.       │
-│     Systemd-managed container apps with session reliability protocol.  │
+│     Self-hosted multi-session WhatsApp gateway (Baileys).                │
+│     Admin/customer tier boundary enforcement. Claude-powered             │
+│     conversational AI with tool routing. Media handling pipeline.        │
+│     Systemd-managed container apps with session reliability protocol.    │
 ├──────────────────────────────────────────────────────────────────────────┤
 │  ◈  CONTENT INTELLIGENCE                                                 │
-│     AI-powered content pipeline: research → generation → curation →    │
-│     publishing. Monster scraper infrastructure for data acquisition.   │
-│     Skills extraction from content. Knowledge base in Nico Archive.    │
+│     AI-powered content pipeline: research → generation → curation →      │
+│     publishing. Monster scraper infrastructure for data acquisition.     │
+│     Skills extraction from content. Knowledge base in Nico Archive.      │
 ├──────────────────────────────────────────────────────────────────────────┤
 │  ◈  ACADEMY PLATFORM                                                     │
-│     Gamified AI-powered learning platform. Second Brain integration.   │
-│     Agent-powered curriculum generation. Preview deployments.          │
-│     InfoAcademy.uk — live platform.                                     │
+│     Gamified AI-powered learning platform. Second Brain integration.     │
+│     Agent-powered curriculum generation. Preview deployments.            │
+│     InfoAcademy.uk — live platform.                                      │
 └──────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -193,53 +193,53 @@ $ cat /etc/apex/identity.conf
 ║                STATUS: ████████████████████ OPERATIONAL               ║
 ╠═══════════════════════════════════════════════════════════════════════╣
 ║                                                                       ║
-║              ┌────────────────────────────────┐                      ║
-║              │       ◈  A Q U I L A           │                      ║
+║              ┌────────────────────────────────┐                       ║
+║              │       ◈  A Q U I L A           │                       ║
 ║              │       Orchestrator Agent        │                      ║
 ║              │       Claude Opus 4-6           │                      ║
 ║              │   Receives tasks via Telegram   │                      ║
 ║              │   Decomposes → delegates →      │                      ║
 ║              │   monitors → reports            │                      ║
-║              └──────────────┬─────────────────┘                      ║
-║                             │                                        ║
-║          ┌──────────────────┼──────────────────┐                     ║
-║          ▼                  ▼                  ▼                     ║
-║   ┌────────────┐    ┌────────────┐    ┌────────────┐                 ║
-║   │  WORKER 1  │    │  WORKER 2  │    │  WORKER 3  │                 ║
-║   │  Sonnet    │    │  Sonnet    │    │  Sonnet    │                 ║
-║   │  4-6       │    │  4-6       │    │  4-6       │                 ║
-║   │            │    │            │    │            │                 ║
-║   │ Persistent │    │ Persistent │    │ Persistent │                 ║
-║   │ systemd    │    │ systemd    │    │ systemd    │                 ║
-║   │ service    │    │ service    │    │ service    │                 ║
-║   └──────┬─────┘    └──────┬─────┘    └──────┬─────┘                 ║
-║          │                 │                 │                       ║
-║          └─────────────────┼─────────────────┘                       ║
-║                            ▼                                         ║
-║              ┌────────────────────────────────┐                      ║
-║              │       ◈  REVIEWER              │                      ║
-║              │       Quality Gate Agent        │                      ║
-║              │       Claude Opus 4-6           │                      ║
-║              │   Triage → PRD generation →     │                      ║
-║              │   Code review → Approve/Reject  │                      ║
-║              └────────────────────────────────┘                      ║
+║              └──────────────┬─────────────────┘                       ║
+║                             │                                         ║
+║          ┌──────────────────┼──────────────────┐                      ║
+║          ▼                  ▼                  ▼                      ║
+║   ┌────────────┐    ┌────────────┐    ┌────────────┐                  ║
+║   │  WORKER 1  │    │  WORKER 2  │    │  WORKER 3  │                  ║
+║   │  Sonnet    │    │  Sonnet    │    │  Sonnet    │                  ║
+║   │  4-6       │    │  4-6       │    │  4-6       │                  ║
+║   │            │    │            │    │            │                  ║
+║   │ Persistent │    │ Persistent │    │ Persistent │                  ║
+║   │ systemd    │    │ systemd    │    │ systemd    │                  ║
+║   │ service    │    │ service    │    │ service    │                  ║
+║   └──────┬─────┘    └──────┬─────┘    └──────┬─────┘                  ║
+║          │                 │                 │                        ║
+║          └─────────────────┼─────────────────┘                        ║
+║                            ▼                                          ║
+║              ┌────────────────────────────────┐                       ║
+║              │       ◈  REVIEWER              │                       ║
+║              │       Quality Gate Agent       │                       ║
+║              │       Claude Opus 4-6          │                       ║
+║              │   Triage → PRD generation →    │                       ║
+║              │   Code review → Approve/Reject │                       ║
+║              └────────────────────────────────┘                       ║
 ║                                                                       ║
-║              ┌────────────────────────────────┐                      ║
-║              │       ◈  WATCHDOG              │                      ║
-║              │       Self-Healing Supervisor   │                      ║
-║              │   Heartbeat monitor · Process   │                      ║
-║              │   reaper · Token refresh ·      │                      ║
-║              │   Stuck task detection          │                      ║
-║              └────────────────────────────────┘                      ║
+║              ┌────────────────────────────────┐                       ║
+║              │       ◈  WATCHDOG              │                       ║
+║              │       Self-Healing Supervisor  │                       ║
+║              │   Heartbeat monitor · Process  │                       ║
+║              │   reaper · Token refresh ·     │                       ║
+║              │   Stuck task detection         │                       ║
+║              └────────────────────────────────┘                       ║
 ║                                                                       ║
 ║   ┌───────────────────────────────────────────────────────────────┐   ║
 ║   │  TASK FLOW                                                    │   ║
-║   │  Telegram → Aquila → TASK_PROPOSE → /yes → Triage (Opus) →  │   ║
-║   │  PRD → Queue → Worker claims → Claude executes → PR opened → │   ║
-║   │  Review → Approve → Human merges preview                     │   ║
+║   │  Telegram → Aquila → TASK_PROPOSE → /yes → Triage (Opus) →    │   ║
+║   │  PRD → Queue → Worker claims → Claude executes → PR opened →  │   ║
+║   │  Review → Approve → Human merges preview                      │   ║
 ║   └───────────────────────────────────────────────────────────────┘   ║
 ║                                                                       ║
-║   Agents: 6/6 ACTIVE  ·  Repos: 49  ·  Skills: 70+  ·  Uptime: 99%  ║
+║   Agents: 6/6 ACTIVE  ·  Repos: 49  ·  Skills: 70+  ·  Uptime: 99%    ║
 ╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -266,53 +266,53 @@ $ cat /etc/apex/identity.conf
 
 ```
 ╔════════════════════════════════════════════════════════════════════════════╗
-║                      APEX OS  —  SYSTEM ARCHITECTURE                      ║
+║                      APEX OS  —  SYSTEM ARCHITECTURE                       ║
 ╠════════════════════════════════════════════════════════════════════════════╣
 ║                                                                            ║
 ║  ┌──────────────────────────────────────────────────────────────────────┐  ║
 ║  │                        COMMAND LAYER                                 │  ║
-║  │    Telegram Bot (@theapexclaw_bot)  ·  Voice + Text + Images        │  ║
-║  │    /spawn <repo> <task>  ·  /yes  ·  /no  ·  /status               │  ║
+║  │    Telegram Bot (@theapexclaw_bot)  ·  Voice + Text + Images         │  ║
+║  │    /spawn <repo> <task>  ·  /yes  ·  /no  ·  /status                 │  ║
 ║  └────────────────────────────────┬─────────────────────────────────────┘  ║
 ║                                   │                                        ║
 ║  ┌────────────────────────────────▼─────────────────────────────────────┐  ║
 ║  │                     AQUILA GATEWAY  (Node.js)                        │  ║
 ║  │    TASK_PROPOSE parser  ·  Multi-task creation  ·  Claude routing    │  ║
-║  │    askClaude() with process tracking  ·  120s SIGKILL failsafe     │  ║
-║  └───────┬─────────────────────┬─────────────────────┬──────────────────┘  ║
-║          │                     │                     │                      ║
-║   ┌──────▼──────┐    ┌────────▼─────────┐   ┌──────▼───────────┐          ║
-║   │   REVIEWER  │    │  WORKER SWARM    │   │   WATCHDOG       │          ║
-║   │   Opus 4-6  │    │  3x Sonnet 4-6  │   │   Bash/systemd   │          ║
-║   │  ┌────────┐ │    │  ┌────────────┐  │   │  ┌────────────┐  │          ║
-║   │  │TRIAGE  │ │    │  │ CLAIM TASK │  │   │  │ HEARTBEAT  │  │          ║
-║   │  │  PRD   │ │    │  │ WORKTREE   │  │   │  │ MONITOR    │  │          ║
-║   │  │REVIEW  │ │    │  │ CLAUDE -p  │  │   │  │ PROCESS    │  │          ║
-║   │  │APPROVE │ │    │  │ PUSH + PR  │  │   │  │ REAPER     │  │          ║
-║   │  └────────┘ │    │  └────────────┘  │   │  │ TOKEN      │  │          ║
-║   └─────────────┘    └──────────────────┘   │  │ REFRESH    │  │          ║
+║  │    askClaude() with process tracking  ·  120s SIGKILL failsafe       │  ║
+║  └───────┬─────────────────────┬────────────────────┬───────────────────┘  ║
+║          │                     │                    │                      ║
+║   ┌──────▼──────┐     ┌────────▼─────────┐   ┌──────▼───────────┐          ║
+║   │   REVIEWER  │     │  WORKER SWARM    │   │   WATCHDOG       │          ║
+║   │   Opus 4-6  │     │  3x Sonnet 4-6   │   │   Bash/systemd   │          ║
+║   │  ┌────────┐ │     │  ┌────────────┐  │   │  ┌────────────┐  │          ║
+║   │  │TRIAGE  │ │     │  │ CLAIM TASK │  │   │  │ HEARTBEAT  │  │          ║
+║   │  │  PRD   │ │     │  │ WORKTREE   │  │   │  │ MONITOR    │  │          ║
+║   │  │REVIEW  │ │     │  │ CLAUDE -p  │  │   │  │ PROCESS    │  │          ║
+║   │  │APPROVE │ │     │  │ PUSH + PR  │  │   │  │ REAPER     │  │          ║
+║   │  └────────┘ │     │  └────────────┘  │   │  │ TOKEN      │  │          ║
+║   └─────────────┘     └──────────────────┘   │  │ REFRESH    │  │          ║
 ║                                              │  └────────────┘  │          ║
 ║                                              └──────────────────┘          ║
 ║                                                                            ║
 ║  ┌──────────────────────────────────────────────────────────────────────┐  ║
 ║  │                       DATA LAYER  (Supabase)                         │  ║
-║  │    openclaw_tasks_v2  ·  openclaw_workers  ·  openclaw_agent_events │  ║
-║  │    Postgres  ·  Realtime subscriptions  ·  Row-Level Security       │  ║
+║  │    openclaw_tasks_v2  ·  openclaw_workers  ·  openclaw_agent_events  │  ║
+║  │    Postgres  ·  Realtime subscriptions  ·  Row-Level Security        │  ║
 ║  └──────────────────────────────────────────────────────────────────────┘  ║
 ║                                                                            ║
 ║  ┌──────────────────────────────────────────────────────────────────────┐  ║
-║  │                    GOVERNANCE LAYER                                   │  ║
-║  │    AGENTS.md §31 (Sovereign Stack)  ·  §32 (Safe Build & Deploy)    │  ║
-║  │    RBAC: ZOE (read-only orchestrator) / CODEX (execution workers)   │  ║
-║  │    Skills Engine: 70+ skills  ·  Auto-propagation across repos      │  ║
-║  │    repo-inventory.json: routing rules for 17+ active repos          │  ║
+║  │                    GOVERNANCE LAYER                                  │  ║
+║  │    AGENTS.md §31 (Sovereign Stack)  ·  §32 (Safe Build & Deploy)     │  ║
+║  │    RBAC: ZOE (read-only orchestrator) / CODEX (execution workers)    │  ║
+║  │    Skills Engine: 70+ skills  ·  Auto-propagation across repos       │  ║
+║  │    repo-inventory.json: routing rules for 17+ active repos           │  ║
 ║  └──────────────────────────────────────────────────────────────────────┘  ║
 ║                                                                            ║
 ║  ┌──────────────────────────────────────────────────────────────────────┐  ║
 ║  │                   AZURE INFRASTRUCTURE                               │  ║
-║  │    VM: openclaw-gateway-01  ·  WireGuard VPN  ·  Fortress NSG      │  ║
-║  │    systemd services  ·  Bare git repos  ·  Git worktrees            │  ║
-║  │    UFW + fail2ban  ·  No public SSH  ·  WireGuard-only access       │  ║
+║  │    VM: openclaw-gateway-01  ·  WireGuard VPN  ·  Fortress NSG        │  ║
+║  │    systemd services  ·  Bare git repos  ·  Git worktrees             │  ║
+║  │    UFW + fail2ban  ·  No public SSH  ·  WireGuard-only access        │  ║
 ║  └──────────────────────────────────────────────────────────────────────┘  ║
 ║                                                                            ║
 ╚════════════════════════════════════════════════════════════════════════════╝
@@ -326,23 +326,23 @@ $ cat /etc/apex/identity.conf
 ├────────────────────────────────────────────────────────────────────────┤
 │                                                                        │
 │  AGENT-FIRST        Every operation is an agent task. No manual        │
-│                     scripts. No SSH-and-pray. Agents all the way.     │
+│                     scripts. No SSH-and-pray. Agents all the way.      │
 │                                                                        │
-│  SELF-GOVERNING     One canonical AGENTS.md governs all 49 repos.     │
+│  SELF-GOVERNING     One canonical AGENTS.md governs all 49 repos.      │
 │                     Pointer files. No duplication. One truth.          │
 │                                                                        │
-│  SELF-HEALING       3-layer protection. If a process dies, the        │
-│                     watchdog restarts it. If a task stalls, it gets   │
-│                     re-queued. If a worker crashes, systemd revives.  │
+│  SELF-HEALING       3-layer protection. If a process dies, the         │
+│                     watchdog restarts it. If a task stalls, it gets    │
+│                     re-queued. If a worker crashes, systemd revives.   │
 │                                                                        │
-│  SELF-LEARNING      Skills engine captures production failures as     │
-│                     reusable SKILL.md files. Agents get smarter       │
-│                     with every deployment. Recursive improvement.     │
+│  SELF-LEARNING      Skills engine captures production failures as      │
+│                     reusable SKILL.md files. Agents get smarter        │
+│                     with every deployment. Recursive improvement.      │
 │                                                                        │
-│  ZERO-TRUST         Workers run in isolated HOME directories.         │
-│                     Orchestrator is read-only (ZOE tier).             │
+│  ZERO-TRUST         Workers run in isolated HOME directories.          │
+│                     Orchestrator is read-only (ZOE tier).              │
 │                     Workers get execution permissions (CODEX tier).    │
-│                     Agents deploy to PREVIEW only. Never production.  │
+│                     Agents deploy to PREVIEW only. Never production.   │
 │                                                                        │
 └────────────────────────────────────────────────────────────────────────┘
 ```
@@ -353,7 +353,7 @@ $ cat /etc/apex/identity.conf
 
 ```
 ╔════════════════════════════════════════════════════════════════════════════╗
-║                         REPOSITORY MAP  (49 repos)                        ║
+║                         REPOSITORY MAP  (49 repos)                         ║
 ╠════════════════════════════════════════════════════════════════════════════╣
 ║                                                                            ║
 ║   CORE INFRASTRUCTURE                                                      ║
@@ -386,7 +386,7 @@ $ cat /etc/apex/identity.conf
 ║                                                                            ║
 ║   CONTENT & INTELLIGENCE                                                   ║
 ║   ├── apex-os-bad-boy           45+ skill productivity system (public)     ║
-║   ├── monster-skills            Skills extracted from content pipeline      ║
+║   ├── monster-skills            Skills extracted from content pipeline     ║
 ║   ├── content-intelligence-hub  AI content pipeline                        ║
 ║   └── chatgpt-skills-system     Cross-model skill compatibility            ║
 ║                                                                            ║
@@ -465,7 +465,7 @@ $ cat /etc/apex/identity.conf
 │                                                                          │
 │   X/Twitter     @nicofratila      https://x.com/nicofratila              │
 │   LinkedIn      /in/nicofratila   linkedin.com/in/nicofratila            │
-│   InfoAcademy   Platform          infoacademy.uk/evolution                │
+│   InfoAcademy   Platform          infoacademy.uk/evolution               │
 │   APEX OS       Product           apex.InfoAcademy.uk                    │
 │                                                                          │
 └──────────────────────────────────────────────────────────────────────────┘
@@ -480,11 +480,11 @@ $ cat /etc/apex/identity.conf
 ```
 ╔════════════════════════════════════════════════════════════════════════╗
 ║                                                                        ║
-║         APEX OS — The operating system for autonomous AI.             ║
+║         APEX OS — The operating system for autonomous AI.              ║
 ║                                                                        ║
-║         Built by agents. Governed by protocol. Commanded by Nico.     ║
+║         Built by agents. Governed by protocol. Commanded by Nico.      ║
 ║                                                                        ║
-║         [ fratilanico ]  ·  2026  ·  All systems operational.         ║
+║         [ fratilanico ]  ·  2026  ·  All systems operational.          ║
 ║                                                                        ║
 ╚════════════════════════════════════════════════════════════════════════╝
 ```
