@@ -221,61 +221,82 @@ $ cat /etc/apex/identity.conf
 
 <div align="center">
 
-```
-╔═══════════════════════════════════════════════════════════════════════╗
-║                     APEX OS AGENT SWARM v2.0                          ║
-║                STATUS: ████████████████████ OPERATIONAL               ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║                                                                       ║
-║              ┌────────────────────────────────┐                       ║
-║              │       ◈  A Q U I L A           │                       ║
-║              │       Orchestrator Agent        │                      ║
-║              │       Claude Opus 4-6           │                      ║
-║              │   Receives tasks via Telegram   │                      ║
-║              │   Decomposes → delegates →      │                      ║
-║              │   monitors → reports            │                      ║
-║              └──────────────┬─────────────────┘                       ║
-║                             │                                         ║
-║          ┌──────────────────┼──────────────────┐                      ║
-║          ▼                  ▼                  ▼                      ║
-║   ┌────────────┐    ┌────────────┐    ┌────────────┐                  ║
-║   │  WORKER 1  │    │  WORKER 2  │    │  WORKER 3  │                  ║
-║   │  Sonnet    │    │  Sonnet    │    │  Sonnet    │                  ║
-║   │  4-6       │    │  4-6       │    │  4-6       │                  ║
-║   │            │    │            │    │            │                  ║
-║   │ Persistent │    │ Persistent │    │ Persistent │                  ║
-║   │ systemd    │    │ systemd    │    │ systemd    │                  ║
-║   │ service    │    │ service    │    │ service    │                  ║
-║   └──────┬─────┘    └──────┬─────┘    └──────┬─────┘                  ║
-║          │                 │                 │                        ║
-║          └─────────────────┼─────────────────┘                        ║
-║                            ▼                                          ║
-║              ┌────────────────────────────────┐                       ║
-║              │       ◈  REVIEWER              │                       ║
-║              │       Quality Gate Agent       │                       ║
-║              │       Claude Opus 4-6          │                       ║
-║              │   Triage → PRD generation →    │                       ║
-║              │   Code review → Approve/Reject │                       ║
-║              └────────────────────────────────┘                       ║
-║                                                                       ║
-║              ┌────────────────────────────────┐                       ║
-║              │       ◈  WATCHDOG              │                       ║
-║              │       Self-Healing Supervisor  │                       ║
-║              │   Heartbeat monitor · Process  │                       ║
-║              │   reaper · Token refresh ·     │                       ║
-║              │   Stuck task detection         │                       ║
-║              └────────────────────────────────┘                       ║
-║                                                                       ║
-║   ┌───────────────────────────────────────────────────────────────┐   ║
-║   │  TASK FLOW                                                    │   ║
-║   │  Telegram → Aquila → TASK_PROPOSE → /yes → Triage (Opus) →    │   ║
-║   │  PRD → Queue → Worker claims → Claude executes → PR opened →  │   ║
-║   │  Review → Approve → Human merges preview                      │   ║
-║   └───────────────────────────────────────────────────────────────┘   ║
-║                                                                       ║
-║   Agents: 6/6 ACTIVE  ·  Repos: 49  ·  Skills: 70+  ·  Uptime: 99%    ║
-╚═══════════════════════════════════════════════════════════════════════╝
-```
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="swBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f7ff"/><stop offset="50%" stop-color="#cc00ff"/><stop offset="100%" stop-color="#ff8c00"/>
+    </linearGradient>
+    <linearGradient id="swAquila" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f7ff" stop-opacity="0.15"/><stop offset="100%" stop-color="#cc00ff" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="swWorker" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7b2fff" stop-opacity="0.12"/><stop offset="100%" stop-color="#00f7ff" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="swReview" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff00cc" stop-opacity="0.12"/><stop offset="100%" stop-color="#ff8c00" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="520" rx="12" fill="#0d1117"/>
+  <rect x="0" y="0" width="800" height="3" rx="1.5" fill="url(#swBorder)"/>
+  <rect x="0" y="517" width="800" height="3" rx="1.5" fill="url(#swBorder)"/>
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#ffffff" letter-spacing="3">APEX OS AGENT SWARM v2.0</text>
+  <text x="400" y="55" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#00f7ff" letter-spacing="2">STATUS: OPERATIONAL</text>
+  <rect x="310" y="44" width="80" height="4" rx="2" fill="#00f7ff" opacity="0.8"/>
+  <!-- AQUILA box -->
+  <rect x="270" y="75" width="260" height="90" rx="8" fill="url(#swAquila)" stroke="#00f7ff" stroke-width="1.2" opacity="0.9"/>
+  <text x="400" y="100" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" font-weight="bold" fill="#00f7ff" letter-spacing="2">AQUILA</text>
+  <text x="400" y="118" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#c9d1d9">Orchestrator · Claude Opus 4-6</text>
+  <text x="400" y="135" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#888" letter-spacing="1">Telegram → Decompose → Delegate → Monitor</text>
+  <text x="400" y="155" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00f7ff" opacity="0.6">[ READ-ONLY · ZOE TIER ]</text>
+  <!-- Connection lines from Aquila to workers -->
+  <line x1="400" y1="165" x2="400" y2="185" stroke="#444" stroke-width="1.5"/>
+  <line x1="160" y1="185" x2="640" y2="185" stroke="#444" stroke-width="1.5"/>
+  <line x1="160" y1="185" x2="160" y2="205" stroke="#444" stroke-width="1.5"/>
+  <line x1="400" y1="185" x2="400" y2="205" stroke="#444" stroke-width="1.5"/>
+  <line x1="640" y1="185" x2="640" y2="205" stroke="#444" stroke-width="1.5"/>
+  <!-- Arrow heads -->
+  <polygon points="155,205 160,215 165,205" fill="#7b2fff" opacity="0.8"/>
+  <polygon points="395,205 400,215 405,205" fill="#7b2fff" opacity="0.8"/>
+  <polygon points="635,205 640,215 645,205" fill="#7b2fff" opacity="0.8"/>
+  <!-- Worker boxes -->
+  <rect x="80" y="215" width="160" height="80" rx="6" fill="url(#swWorker)" stroke="#7b2fff" stroke-width="1" opacity="0.9"/>
+  <text x="160" y="240" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#7b2fff">WORKER 1</text>
+  <text x="160" y="256" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#c9d1d9">Sonnet 4-6</text>
+  <text x="160" y="272" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#888">Persistent systemd</text>
+  <text x="160" y="286" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#7b2fff" opacity="0.6">[ CODEX TIER ]</text>
+  <rect x="320" y="215" width="160" height="80" rx="6" fill="url(#swWorker)" stroke="#7b2fff" stroke-width="1" opacity="0.9"/>
+  <text x="400" y="240" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#7b2fff">WORKER 2</text>
+  <text x="400" y="256" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#c9d1d9">Sonnet 4-6</text>
+  <text x="400" y="272" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#888">Persistent systemd</text>
+  <text x="400" y="286" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#7b2fff" opacity="0.6">[ CODEX TIER ]</text>
+  <rect x="560" y="215" width="160" height="80" rx="6" fill="url(#swWorker)" stroke="#7b2fff" stroke-width="1" opacity="0.9"/>
+  <text x="640" y="240" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#7b2fff">WORKER 3</text>
+  <text x="640" y="256" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#c9d1d9">Sonnet 4-6</text>
+  <text x="640" y="272" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#888">Persistent systemd</text>
+  <text x="640" y="286" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#7b2fff" opacity="0.6">[ CODEX TIER ]</text>
+  <!-- Connection from workers to reviewer -->
+  <line x1="160" y1="295" x2="160" y2="315" stroke="#444" stroke-width="1"/>
+  <line x1="400" y1="295" x2="400" y2="315" stroke="#444" stroke-width="1"/>
+  <line x1="640" y1="295" x2="640" y2="315" stroke="#444" stroke-width="1"/>
+  <line x1="160" y1="315" x2="640" y2="315" stroke="#444" stroke-width="1"/>
+  <line x1="400" y1="315" x2="400" y2="335" stroke="#444" stroke-width="1.5"/>
+  <polygon points="395,335 400,345 405,335" fill="#ff00cc" opacity="0.8"/>
+  <!-- Reviewer box -->
+  <rect x="270" y="345" width="260" height="75" rx="8" fill="url(#swReview)" stroke="#ff00cc" stroke-width="1.2" opacity="0.9"/>
+  <text x="400" y="370" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#ff00cc" letter-spacing="2">REVIEWER</text>
+  <text x="400" y="388" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#c9d1d9">Quality Gate · Claude Opus 4-6</text>
+  <text x="400" y="405" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#888" letter-spacing="1">Triage → PRD → Review → Approve/Reject</text>
+  <!-- Watchdog box -->
+  <rect x="270" y="435" width="260" height="55" rx="6" fill="#0d1117" stroke="#ff8c00" stroke-width="1" stroke-dasharray="4,3" opacity="0.9"/>
+  <text x="400" y="458" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#ff8c00" letter-spacing="1">WATCHDOG</text>
+  <text x="400" y="476" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#888">Heartbeat · Process Reaper · Token Refresh · Self-Heal</text>
+  <!-- Status bar -->
+  <text x="400" y="505" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#c9d1d9" letter-spacing="1">Agents: 6/6 ACTIVE  ·  Repos: 49  ·  Skills: 70+  ·  Uptime: 99%</text>
+  <!-- Border -->
+  <rect x="1" y="1" width="798" height="518" rx="11" fill="none" stroke="url(#swBorder)" stroke-width="1" opacity="0.3"/>
+</svg>
 
 </div>
 
@@ -475,11 +496,11 @@ $ cat /etc/apex/identity.conf
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fratilanico&show_icons=true&theme=dark&bg_color=080810&title_color=00f7ff&icon_color=ff00cc&text_color=c9d1d9&border_color=00f7ff&border_radius=8&hide_border=false)](https://github.com/fratilanico)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fratilanico&show_icons=true&count_private=true&include_all_commits=true&theme=dark&bg_color=080810&title_color=00f7ff&icon_color=ff00cc&text_color=c9d1d9&border_color=00f7ff&border_radius=8&hide_border=false)](https://github.com/fratilanico)
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=fratilanico&theme=dark&background=080810&ring=00f7ff&fire=ff00cc&currStreakLabel=00f7ff&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=888888&border=00f7ff&border_radius=8)](https://github.com/fratilanico)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fratilanico&layout=compact&theme=dark&bg_color=080810&title_color=00f7ff&text_color=c9d1d9&border_color=00f7ff&border_radius=8&langs_count=8)](https://github.com/fratilanico)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fratilanico&layout=compact&count_private=true&theme=dark&bg_color=080810&title_color=00f7ff&text_color=c9d1d9&border_color=00f7ff&border_radius=8&langs_count=8)](https://github.com/fratilanico)
 
 </div>
 
@@ -494,16 +515,7 @@ $ cat /etc/apex/identity.conf
 [![InfoAcademy](https://img.shields.io/badge/InfoAcademy-ff00cc?style=for-the-badge&logo=graduation-cap&logoColor=white&labelColor=080810)](https://infoacademy.uk/evolution)
 [![APEX OS](https://img.shields.io/badge/APEX%20OS-00f7ff?style=for-the-badge&logo=rocket&logoColor=black&labelColor=080810)](https://apex.InfoAcademy.uk)
 
-```
-┌──────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
-│   X/Twitter     @nicofratila      https://x.com/nicofratila              │
-│   LinkedIn      /in/nicofratila   linkedin.com/in/nicofratila            │
-│   InfoAcademy   Platform          infoacademy.uk/evolution               │
-│   APEX OS       Product           apex.InfoAcademy.uk                    │
-│                                                                          │
-└──────────────────────────────────────────────────────────────────────────┘
-```
+
 
 </div>
 
