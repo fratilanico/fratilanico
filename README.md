@@ -1,23 +1,76 @@
+<!-- HERO BANNER — inline SVG gradient -->
 <div align="center">
-  <img src="assets/apex-os-logo.svg" alt="APEX OS" width="100%" />
+
+<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#00f7ff" stop-opacity="0.9"/>
+      <stop offset="30%"  stop-color="#cc00ff" stop-opacity="0.9"/>
+      <stop offset="65%"  stop-color="#7b2fff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff8c00" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00f7ff"/>
+      <stop offset="50%"  stop-color="#ff00cc"/>
+      <stop offset="100%" stop-color="#ff8c00"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="900" height="160" rx="12" ry="12" fill="#080810"/>
+  <!-- Gradient overlay strip -->
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#borderGrad)"/>
+  <rect x="0" y="156" width="900" height="4" rx="2" fill="url(#borderGrad)"/>
+  <!-- Glow circles -->
+  <circle cx="60"  cy="80" r="60" fill="#00f7ff" opacity="0.06"/>
+  <circle cx="840" cy="80" r="70" fill="#ff8c00" opacity="0.06"/>
+  <circle cx="450" cy="80" r="90" fill="#cc00ff" opacity="0.04"/>
+  <!-- Main title -->
+  <text x="450" y="62" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="36" font-weight="bold" fill="url(#heroGrad)" letter-spacing="4">
+    APEX  OS
+  </text>
+  <!-- Subtitle -->
+  <text x="450" y="98" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="14" fill="#c9d1d9" letter-spacing="3">
+    AI Agent Swarm  ·  Enterprise Automation  ·  Azure-Native
+  </text>
+  <!-- Bottom tagline -->
+  <text x="450" y="132" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="11" fill="#00f7ff" letter-spacing="2" opacity="0.8">
+    [ Built by agents. Run by Nico. Powered by Claude. ]
+  </text>
+  <!-- Border -->
+  <rect x="1" y="1" width="898" height="158" rx="11" ry="11"
+        fill="none" stroke="url(#borderGrad)" stroke-width="1.5" opacity="0.6"/>
+</svg>
+
 </div>
 
 ---
 
+<!-- IDENTITY -->
 <div align="center">
 
-<img src="https://github.com/fratilanico.png" width="130" style="border-radius:50%" alt="Nicolae Fratila" />
+<a href="https://github.com/fratilanico">
+  <img src="https://github.com/fratilanico.png" width="120" height="120"
+       style="border-radius:50%;border:3px solid #00f7ff" alt="Nicolae Fratila" />
+</a>
 
-<br/>
+<br/><br/>
 
 ```
-╔══════════════════════════════════════════════════════╗
-║        NICOLAE FRATILA  /  fratilanico               ║
-║        Founder & CEO, APEX OS                        ║
-╚══════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║          NICOLAE FRATILA  ·  fratilanico                     ║
+║          Founder & CEO  ·  APEX OS                           ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
-### `AI-first. Agent-powered. Built to dominate.`
+### `> AI-first. Agent-powered. Built to dominate.`
+
+[![Profile Views](https://komarev.com/ghpvc/?username=fratilanico&color=00f7ff&style=flat-square&label=PROFILE+VIEWS)](https://github.com/fratilanico)
+[![GitHub Followers](https://img.shields.io/github/followers/fratilanico?style=flat-square&color=ff00cc&labelColor=080810&label=FOLLOWERS)](https://github.com/fratilanico)
 
 </div>
 
@@ -30,9 +83,23 @@ $ cat about.txt
 ```
 
 > Romanian founder on a mission to make autonomous AI agents the backbone of enterprise operations.
-> Building **APEX OS** — an AI agent swarm deployed on Azure that handles lead-gen, outreach, and sales automation at scale.
+> Building **APEX OS** — an AI agent swarm deployed on Azure that handles lead-gen, outreach,
+> and sales automation at scale.
+>
 > Replacing manual processes with intelligent, compounding pipelines for enterprise SMBs.
 > If it can be automated, we're automating it. If it can't, we're figuring out how.
+>
+> Currently: shipping fast, iterating with agents, scaling to enterprise clients.
+
+<br/>
+
+| | |
+|---|---|
+| **Location** | Romania 🇷🇴 |
+| **Focus** | AI Agent Infrastructure · Enterprise Automation |
+| **Mission** | Replace headcount with intelligent, compounding pipelines |
+| **Stack** | Azure · Claude AI · Next.js · TypeScript |
+| **Status** | `BUILDING` — shipping daily |
 
 ---
 
@@ -41,26 +108,38 @@ $ cat about.txt
 <div align="center">
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                         ◈  APEX OS                                  │
-│         The AI Agent Swarm for Enterprise Lead Generation           │
-└─────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│                                                                      │
+│                         ◈  APEX OS                                   │
+│         The AI Agent Swarm for Enterprise Lead Generation            │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 </div>
 
-**APEX OS** is an AI-powered SaaS platform built for enterprise SMBs that need to scale without scaling headcount. An autonomous agent swarm — orchestrated, monitored, and deployed on Microsoft Azure — handles the entire lead-gen and outreach pipeline from discovery to booked call.
+**APEX OS** is an AI-powered SaaS platform built for enterprise SMBs that need to scale
+without scaling headcount. An autonomous agent swarm — orchestrated, monitored, and deployed
+on Microsoft Azure — handles the entire lead-gen and outreach pipeline from discovery to
+booked call.
 
-| | |
+<br/>
+
+| Capability | Details |
 |---|---|
 | **What it does** | End-to-end lead generation, qualification, outreach, and follow-up automation |
 | **Who it's for** | Enterprise SMBs ready to replace manual sales ops with AI agent pipelines |
 | **Infrastructure** | Azure-native, Claude AI backbone, real-time agent coordination |
-| **Status** | `LIVE` — Active deployments running |
+| **Differentiator** | Fully autonomous — agents plan, execute, and adapt without human intervention |
+| **Pricing model** | SaaS — subscription tiers based on pipeline volume |
+| **Status** | `LIVE` — Active client deployments running |
+
+<br/>
 
 <div align="center">
 
-[![APEX OS](https://img.shields.io/badge/APEX%20OS-Launch%20Product-00f7ff?style=for-the-badge&labelColor=080810&logo=rocket&logoColor=00f7ff)](https://apex.InfoAcademy.uk)
+[![APEX OS — Launch Product](https://img.shields.io/badge/APEX%20OS-Launch%20Product-00f7ff?style=for-the-badge&labelColor=080810&logo=rocket&logoColor=00f7ff)](https://apex.InfoAcademy.uk)
+[![InfoAcademy](https://img.shields.io/badge/InfoAcademy-Platform-ff00cc?style=for-the-badge&labelColor=080810&logo=graduation-cap&logoColor=ff00cc)](https://infoacademy.uk/evolution)
 
 </div>
 
@@ -80,6 +159,72 @@ $ cat about.txt
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 </div>
+
+<br/>
+
+| Technology | Role in Stack |
+|---|---|
+| **Next.js** | Frontend framework — dashboard, agent control plane UI |
+| **TypeScript** | Type-safe agent orchestration and API layer |
+| **Supabase** | Database · Auth · Real-time subscriptions for agent state |
+| **Azure** | Cloud infrastructure — agent workers, containers, queues |
+| **Claude AI** | AI backbone — powers all reasoning and generation agents |
+| **Node.js** | Agent runtime and backend microservices |
+| **Tailwind CSS** | Utility-first styling for rapid dashboard iteration |
+| **Framer Motion** | Animation layer for agent status and live pipeline UI |
+
+---
+
+## `> apex-os --architecture`
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════════╗
+║                    APEX OS  —  SYSTEM ARCHITECTURE                      ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║                                                                          ║
+║   ┌──────────────────────────────────────────────────────────────────┐  ║
+║   │                     CLIENT DASHBOARD  (Next.js)                  │  ║
+║   │          Pipeline view · Agent monitor · Metrics · Config        │  ║
+║   └────────────────────────────┬─────────────────────────────────────┘  ║
+║                                │ HTTPS / WebSocket                      ║
+║   ┌────────────────────────────▼─────────────────────────────────────┐  ║
+║   │                   APEX OS  API GATEWAY  (Node.js)                │  ║
+║   │          Auth (Supabase) · Rate limiting · Agent routing          │  ║
+║   └───────┬────────────────────┬──────────────┬────────────────────── ┘  ║
+║           │                    │              │                          ║
+║    ┌──────▼──────┐  ┌──────────▼───────┐  ┌──▼────────────┐            ║
+║    │  AQUILA     │  │  WORKER SWARM    │  │  REVIEWER     │            ║
+║    │ Orchestrator│  │  (N workers)     │  │  Quality Gate │            ║
+║    │ Claude Opus │  │  Claude Sonnet   │  │  Claude Opus  │            ║
+║    │  [ PLANS ]  │  │  [ EXECUTES ]    │  │  [ VALIDATES ]│            ║
+║    └──────┬──────┘  └──────────┬───────┘  └──┬────────────┘            ║
+║           │                    │              │                          ║
+║   ┌───────▼────────────────────▼──────────────▼────────────────────── ┐ ║
+║   │                    AZURE INFRASTRUCTURE                           │ ║
+║   │    Container Apps · Service Bus · Blob Storage · Key Vault        │ ║
+║   └──────────────────────────────┬────────────────────────────────────┘ ║
+║                                  │                                       ║
+║   ┌──────────────────────────────▼────────────────────────────────────┐ ║
+║   │                     SUPABASE  DATA LAYER                          │ ║
+║   │        Postgres · Auth · Realtime subscriptions · Vectors         │ ║
+║   └───────────────────────────────────────────────────────────────────┘ ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### Architecture Principles
+
+| Principle | Implementation |
+|---|---|
+| **Agent-first design** | Every operation is an agent task — no manual scripts |
+| **Fault-tolerant** | Worker failures auto-recovered by Aquila orchestrator |
+| **Observable** | All agent actions logged, traced, and surfaced in dashboard |
+| **Horizontally scalable** | Worker count scales with pipeline demand via Azure Container Apps |
+| **Context-aware** | Agents share state through Supabase realtime + structured memory |
 
 ---
 
@@ -105,13 +250,9 @@ $ cat about.txt
 ║   ┌──────────┐   ┌──────────┐   ┌──────────┐                    ║
 ║   │ WORKER 1 │   │ WORKER 2 │   │ WORKER 3 │                    ║
 ║   │ Sonnet   │   │ Sonnet   │   │ Sonnet   │                    ║
-║   │ claude-  │   │ claude-  │   │ claude-  │                    ║
-║   │ sonnet-  │   │ sonnet-  │   │ sonnet-  │                    ║
 ║   │ 4-6      │   │ 4-6      │   │ 4-6      │                    ║
 ║   │[BUILDING]│   │[BUILDING]│   │[BUILDING]│                    ║
 ║   └──────────┘   └──────────┘   └──────────┘                    ║
-║          │              │              │                         ║
-║          └──────────────┴──────────────┘                         ║
 ║                         │                                        ║
 ║              ┌──────────▼──────────────┐                         ║
 ║              │  ◈  REVIEWER            │                         ║
@@ -183,5 +324,7 @@ $ cat about.txt
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
+
+*Autonomous. Intelligent. Unstoppable.*
 
 </div>
