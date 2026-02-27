@@ -1,138 +1,187 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:001a2e,100:00FFFF&height=220&text=APEX%20OS&fontAlign=50&fontSize=72&fontColor=00FFFF&desc=AI-First%20Agent%20Swarm%20Platform&descAlign=50&descAlignY=78&animation=twinkling&section=header" width="100%" alt="APEX OS - AI-First Agent Swarm Platform Hero Banner" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github.com/fratilanico.png" width="120" alt="Nico Fratila - Romanian founder of APEX OS, circular B&W portrait" />
-
-  <h1>Nico Fratila</h1>
-  <h3>Founder &amp; CEO &nbsp;·&nbsp; APEX OS &nbsp;·&nbsp; Agent Swarm Architect</h3>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2000&pause=800&color=00FFFF&theme=dark&center=true&vCenter=true&width=600&height=50&lines=Building+APEX+OS;AI-First+SaaS+Platform;Agent+Swarms+on+Azure;Always+Shipping" alt="Building APEX OS | AI-First SaaS Platform | Agent Swarms on Azure | Always Shipping" />
-</div>
-
-<br/>
-
-<div align="center">
-
-[![X](https://img.shields.io/badge/%40nicofratila-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/nicofratila)
-[![LinkedIn](https://img.shields.io/badge/nicofratila-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nicofratila)
-[![APEX OS](https://img.shields.io/badge/APEX%20OS-00FFFF?style=for-the-badge&logo=rocket&logoColor=000000)](https://apex.InfoAcademy.uk)
-[![InfoAcademy](https://img.shields.io/badge/InfoAcademy%20Evolution-FF6B35?style=for-the-badge&logo=rss&logoColor=white)](https://infoacademy.uk/evolution)
-
+  <img src="assets/apex-os-logo.svg" alt="APEX OS" width="100%" />
 </div>
 
 ---
 
-## About
+<div align="center">
 
-I'm Nico — a Romanian founder on a mission to redefine software development with **APEX OS**, an AI-first SaaS platform built on agent swarm architecture. Every day I ship production-grade features using autonomous Claude-powered agents that plan, write, review, and deploy in parallel — no sprint ceremonies, no bottlenecks. The system runs **Aquila**, our orchestrator model, commanding a fleet of Sonnet workers and an Opus reviewer to maintain zero-compromise quality at machine speed. Romanian founder. Daily shipping. Always building.
+<img src="https://github.com/fratilanico.png" width="130" style="border-radius:50%" alt="Nicolae Fratila" />
 
----
-
-## APEX OS · Agent Architecture
+<br/>
 
 ```
-                    ╔══════════════════════════════════════╗
-                    ║        AQUILA ORCHESTRATOR           ║
-                    ║      Claude Opus · Planner           ║
-                    ╚══════════════╤═══════════════════════╝
-                                   │  dispatches tasks
-               ┌───────────────────┼───────────────────┐
-               │                   │                   │         │
-     ┌─────────┴──────┐  ┌─────────┴──────┐  ┌─────────┴──────┐  ┌──────────────┐
-     │   WORKER  1    │  │   WORKER  2    │  │   WORKER  3    │  │   REVIEWER   │
-     │ Sonnet · Code  │  │ Sonnet · Tests │  │ Sonnet · Docs  │  │  Opus · QA   │
-     └────────────────┘  └────────────────┘  └────────────────┘  └──────────────┘
+╔══════════════════════════════════════════════════════╗
+║        NICOLAE FRATILA  /  fratilanico               ║
+║        Founder & CEO, APEX OS                        ║
+╚══════════════════════════════════════════════════════╝
 ```
 
----
-
-## Tech Stack
-
-<div align="center">
-
-![Claude](https://img.shields.io/badge/Claude-000000?style=flat-square&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwind-css&logoColor=38B2AC)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0D1117?style=flat-square&logo=framer&logoColor=0055FF)
-![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=node.js&logoColor=339933)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=007ACC)
-![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=flat-square&logo=supabase&logoColor=3ECF8E)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=316192)
-![Azure](https://img.shields.io/badge/Azure-0D1117?style=flat-square&logo=microsoft-azure&logoColor=0078D4)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED)
-![WireGuard](https://img.shields.io/badge/WireGuard-0D1117?style=flat-square&logo=wireguard&logoColor=88171A)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+### `AI-first. Agent-powered. Built to dominate.`
 
 </div>
 
 ---
 
-## GitHub Stats
+## `> whoami`
+
+```bash
+$ cat about.txt
+```
+
+> Romanian founder on a mission to make autonomous AI agents the backbone of enterprise operations.
+> Building **APEX OS** — an AI agent swarm deployed on Azure that handles lead-gen, outreach, and sales automation at scale.
+> Replacing manual processes with intelligent, compounding pipelines for enterprise SMBs.
+> If it can be automated, we're automating it. If it can't, we're figuring out how.
+
+---
+
+## `> ./apex-os --info`
 
 <div align="center">
 
-<table width="600">
-  <tr>
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=fratilanico&theme=tokyonight&hide_border=true&show_icons=true&count_private=true" width="280" alt="fratilanico GitHub Stats" />
-    </td>
-    <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=fratilanico&theme=tokyonight&hide_border=true" width="280" alt="fratilanico GitHub Streak Stats" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fratilanico&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" width="560" alt="fratilanico Top Languages" />
-    </td>
-  </tr>
-</table>
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                         ◈  APEX OS                                  │
+│         The AI Agent Swarm for Enterprise Lead Generation           │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+**APEX OS** is an AI-powered SaaS platform built for enterprise SMBs that need to scale without scaling headcount. An autonomous agent swarm — orchestrated, monitored, and deployed on Microsoft Azure — handles the entire lead-gen and outreach pipeline from discovery to booked call.
+
+| | |
+|---|---|
+| **What it does** | End-to-end lead generation, qualification, outreach, and follow-up automation |
+| **Who it's for** | Enterprise SMBs ready to replace manual sales ops with AI agent pipelines |
+| **Infrastructure** | Azure-native, Claude AI backbone, real-time agent coordination |
+| **Status** | `LIVE` — Active deployments running |
+
+<div align="center">
+
+[![APEX OS](https://img.shields.io/badge/APEX%20OS-Launch%20Product-00f7ff?style=for-the-badge&labelColor=080810&logo=rocket&logoColor=00f7ff)](https://apex.InfoAcademy.uk)
 
 </div>
 
 ---
 
-## Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fratilanico&theme=tokyo-night&hide_border=true&area=true" width="600" alt="fratilanico GitHub Activity Graph" />
-</div>
-
----
-
-## Get Involved
+## `> cat stack.json`
 
 <div align="center">
 
-<a href="https://apex.InfoAcademy.uk">
-  <img src="https://img.shields.io/badge/JOIN%20APEX%20OS%20WAITLIST-%E2%86%92-00FFFF?style=for-the-badge&logoColor=000000" alt="Join APEX OS Waitlist" />
-</a>
-&nbsp;
-<a href="https://apex.InfoAcademy.uk">
-  <img src="https://img.shields.io/badge/BOOK%20A%20DEMO-%E2%86%92-0078D4?style=for-the-badge&logoColor=white" alt="Book a Demo" />
-</a>
-&nbsp;
-<a href="https://infoacademy.uk/evolution">
-  <img src="https://img.shields.io/badge/FOLLOW%20THE%20BUILD-%E2%86%92-FF6B35?style=for-the-badge&logoColor=white" alt="Follow the Build" />
-</a>
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=black)
+![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Claude AI](https://img.shields.io/badge/Claude%20AI-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 </div>
 
 ---
 
+## `> swarm --status --verbose`
+
 <div align="center">
 
-[![Profile Views](https://komarev.com/ghpvc/?username=fratilanico&style=for-the-badge&color=blueviolet)](https://github.com/fratilanico)
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║                    APEX OS AGENT SWARM v1.0                       ║
+║                    STATUS: ██████████ ONLINE                      ║
+╠═══════════════════════════════════════════════════════════════════╣
+║                                                                   ║
+║              ┌─────────────────────────┐                         ║
+║              │  ◈  AQUILA              │                         ║
+║              │     Orchestrator Agent  │                         ║
+║              │     claude-opus-4-6     │                         ║
+║              │     [ COMMANDING ]      │                         ║
+║              └──────────┬──────────────┘                         ║
+║                         │                                        ║
+║          ┌──────────────┼──────────────┐                         ║
+║          ▼              ▼              ▼                         ║
+║   ┌──────────┐   ┌──────────┐   ┌──────────┐                    ║
+║   │ WORKER 1 │   │ WORKER 2 │   │ WORKER 3 │                    ║
+║   │ Sonnet   │   │ Sonnet   │   │ Sonnet   │                    ║
+║   │ claude-  │   │ claude-  │   │ claude-  │                    ║
+║   │ sonnet-  │   │ sonnet-  │   │ sonnet-  │                    ║
+║   │ 4-6      │   │ 4-6      │   │ 4-6      │                    ║
+║   │[BUILDING]│   │[BUILDING]│   │[BUILDING]│                    ║
+║   └──────────┘   └──────────┘   └──────────┘                    ║
+║          │              │              │                         ║
+║          └──────────────┴──────────────┘                         ║
+║                         │                                        ║
+║              ┌──────────▼──────────────┐                         ║
+║              │  ◈  REVIEWER            │                         ║
+║              │     Quality Gate Agent  │                         ║
+║              │     claude-opus-4-6     │                         ║
+║              │     [ REVIEWING ]       │                         ║
+║              └─────────────────────────┘                         ║
+║                                                                   ║
+║  Agents: 5/5 ACTIVE  ·  Tasks: RUNNING  ·  Uptime: 99.9%        ║
+╚═══════════════════════════════════════════════════════════════════╝
+```
 
-**Built with AI. Deployed by agents. Shipped by Nico.**
+</div>
+
+| Agent | Model | Role | Status |
+|-------|-------|------|--------|
+| **Aquila** | `claude-opus-4-6` | Orchestrator — plans, delegates, coordinates | ![ONLINE](https://img.shields.io/badge/ONLINE-00f7ff?style=flat-square&labelColor=080810) |
+| **Worker 1** | `claude-sonnet-4-6` | Dev worker — implementation & code | ![ACTIVE](https://img.shields.io/badge/ACTIVE-7b5ea7?style=flat-square&labelColor=080810) |
+| **Worker 2** | `claude-sonnet-4-6` | Dev worker — testing & integration | ![ACTIVE](https://img.shields.io/badge/ACTIVE-7b5ea7?style=flat-square&labelColor=080810) |
+| **Worker 3** | `claude-sonnet-4-6` | Dev worker — content & deployment | ![ACTIVE](https://img.shields.io/badge/ACTIVE-7b5ea7?style=flat-square&labelColor=080810) |
+| **Reviewer** | `claude-opus-4-6` | Quality gate — validation & approval | ![REVIEWING](https://img.shields.io/badge/REVIEWING-ff00cc?style=flat-square&labelColor=080810) |
+
+---
+
+## `> git stats --global`
+
+<div align="center">
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fratilanico&show_icons=true&theme=dark&bg_color=080810&title_color=00f7ff&icon_color=ff00cc&text_color=c9d1d9&border_color=00f7ff&border_radius=8&hide_border=false)](https://github.com/fratilanico)
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=fratilanico&theme=dark&background=080810&ring=00f7ff&fire=ff00cc&currStreakLabel=00f7ff&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=888888&border=00f7ff&border_radius=8)](https://github.com/fratilanico)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fratilanico&layout=compact&theme=dark&bg_color=080810&title_color=00f7ff&text_color=c9d1d9&border_color=00f7ff&border_radius=8&langs_count=8)](https://github.com/fratilanico)
+
+</div>
+
+---
+
+## `> cat links.sh && bash links.sh`
+
+<div align="center">
+
+[![X / Twitter](https://img.shields.io/badge/@nicofratila-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/nicofratila)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicofratila)
+[![InfoAcademy](https://img.shields.io/badge/InfoAcademy-ff00cc?style=for-the-badge&logo=graduation-cap&logoColor=white&labelColor=080810)](https://infoacademy.uk/evolution)
+[![APEX OS](https://img.shields.io/badge/APEX%20OS-00f7ff?style=for-the-badge&logo=rocket&logoColor=black&labelColor=080810)](https://apex.InfoAcademy.uk)
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│  X/Twitter  ·  @nicofratila     →  https://x.com/nicofratila         │
+│  LinkedIn   ·  /in/nicofratila  →  linkedin.com/in/nicofratila       │
+│  InfoAcademy                    →  infoacademy.uk/evolution           │
+│  APEX OS    ·  Product          →  apex.InfoAcademy.uk               │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║         APEX OS — Built by agents. Run by Nico.             ║
+║                                                              ║
+║         [ fratilanico ]  ·  2026  ·  All systems go.        ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
 </div>
