@@ -1,73 +1,74 @@
-<!-- HERO BANNER — inline SVG gradient -->
+<!-- HERO BANNER -->
 <div align="center">
 
-<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#00f7ff" stop-opacity="0.9"/>
-      <stop offset="30%"  stop-color="#cc00ff" stop-opacity="0.9"/>
-      <stop offset="65%"  stop-color="#7b2fff" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#ff8c00" stop-opacity="0.9"/>
+      <stop offset="0%"   stop-color="#00f7ff" stop-opacity="0.95"/>
+      <stop offset="35%"  stop-color="#cc00ff" stop-opacity="0.9"/>
+      <stop offset="70%"  stop-color="#7b2fff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff8c00" stop-opacity="0.95"/>
     </linearGradient>
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#00f7ff"/>
       <stop offset="50%"  stop-color="#ff00cc"/>
       <stop offset="100%" stop-color="#ff8c00"/>
     </linearGradient>
+    <linearGradient id="subtitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00f7ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff00cc" stop-opacity="0.8"/>
+    </linearGradient>
   </defs>
-  <!-- Background -->
-  <rect width="900" height="160" rx="12" ry="12" fill="#080810"/>
-  <!-- Gradient overlay strip -->
-  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#borderGrad)"/>
-  <rect x="0" y="156" width="900" height="4" rx="2" fill="url(#borderGrad)"/>
-  <!-- Glow circles -->
-  <circle cx="60"  cy="80" r="60" fill="#00f7ff" opacity="0.06"/>
-  <circle cx="840" cy="80" r="70" fill="#ff8c00" opacity="0.06"/>
-  <circle cx="450" cy="80" r="90" fill="#cc00ff" opacity="0.04"/>
-  <!-- Main title -->
-  <text x="450" y="62" text-anchor="middle" font-family="'Courier New', monospace"
-        font-size="36" font-weight="bold" fill="url(#heroGrad)" letter-spacing="4">
+  <rect width="900" height="180" rx="12" ry="12" fill="#080810"/>
+  <rect x="0" y="0" width="900" height="3" rx="2" fill="url(#borderGrad)"/>
+  <rect x="0" y="177" width="900" height="3" rx="2" fill="url(#borderGrad)"/>
+  <circle cx="80"  cy="90" r="70" fill="#00f7ff" opacity="0.05"/>
+  <circle cx="820" cy="90" r="80" fill="#ff8c00" opacity="0.05"/>
+  <circle cx="450" cy="90" r="110" fill="#cc00ff" opacity="0.03"/>
+  <text x="450" y="55" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="13" fill="#00f7ff" letter-spacing="6" opacity="0.6">
+    [ SOVEREIGN AI INFRASTRUCTURE ]
+  </text>
+  <text x="450" y="92" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="42" font-weight="bold" fill="url(#heroGrad)" letter-spacing="6">
     APEX  OS
   </text>
-  <!-- Subtitle -->
-  <text x="450" y="98" text-anchor="middle" font-family="'Courier New', monospace"
-        font-size="14" fill="#c9d1d9" letter-spacing="3">
-    AI Agent Swarm  ·  Enterprise Automation  ·  Azure-Native
+  <text x="450" y="122" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="13" fill="#c9d1d9" letter-spacing="2">
+    Autonomous Agent Swarm  ·  Self-Healing  ·  Self-Governing  ·  Self-Learning
   </text>
-  <!-- Bottom tagline -->
-  <text x="450" y="132" text-anchor="middle" font-family="'Courier New', monospace"
-        font-size="11" fill="#00f7ff" letter-spacing="2" opacity="0.8">
-    [ Built by agents. Run by Nico. Powered by Claude. ]
+  <text x="450" y="155" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="11" fill="url(#subtitleGrad)" letter-spacing="2" opacity="0.7">
+    Built by agents. Governed by protocol. Commanded by Nico.
   </text>
-  <!-- Border -->
-  <rect x="1" y="1" width="898" height="158" rx="11" ry="11"
-        fill="none" stroke="url(#borderGrad)" stroke-width="1.5" opacity="0.6"/>
+  <rect x="1" y="1" width="898" height="178" rx="11" ry="11"
+        fill="none" stroke="url(#borderGrad)" stroke-width="1.5" opacity="0.4"/>
 </svg>
 
 </div>
 
----
+<br/>
 
-<!-- IDENTITY -->
 <div align="center">
 
 <a href="https://github.com/fratilanico">
-  <img src="https://github.com/fratilanico.png" width="120" height="120"
+  <img src="https://github.com/fratilanico.png" width="110" height="110"
        style="border-radius:50%;border:3px solid #00f7ff" alt="Nicolae Fratila" />
 </a>
 
 <br/><br/>
 
 ```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║          NICOLAE FRATILA  ·  fratilanico                     ║
-║          Founder & CEO  ·  APEX OS                           ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║           NICOLAE FRATILA  ·  fratilanico                          ║
+║           Founder & CEO  ·  APEX OS                                ║
+║           Romania 🇷🇴  ·  Building the agent age                   ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
 ```
 
-### `> AI-first. Agent-powered. Built to dominate.`
+### `> Agents that build agents. Infrastructure that governs itself.`
 
 [![Profile Views](https://komarev.com/ghpvc/?username=fratilanico&color=00f7ff&style=flat-square&label=PROFILE+VIEWS)](https://github.com/fratilanico)
 [![GitHub Followers](https://img.shields.io/github/followers/fratilanico?style=flat-square&color=ff00cc&labelColor=080810&label=FOLLOWERS)](https://github.com/fratilanico)
@@ -78,70 +79,325 @@
 
 ## `> whoami`
 
-```bash
-$ cat about.txt
+```
+$ cat /etc/apex/identity.conf
 ```
 
-> Romanian founder on a mission to make autonomous AI agents the backbone of enterprise operations.
-> Building **APEX OS** — an AI agent swarm deployed on Azure that handles lead-gen, outreach,
-> and sales automation at scale.
+> I don't build tools. I build the infrastructure that lets AI agents **govern themselves**.
 >
-> Replacing manual processes with intelligent, compounding pipelines for enterprise SMBs.
-> If it can be automated, we're automating it. If it can't, we're figuring out how.
+> **APEX OS** is a sovereign AI agent operating system — a self-healing, self-learning
+> swarm of Claude-powered agents deployed on Azure that can plan tasks, decompose work,
+> execute autonomously across 49 repositories, open PRs, review each other's code,
+> and deploy to production. All orchestrated by a single command through Telegram.
 >
-> Currently: shipping fast, iterating with agents, scaling to enterprise clients.
+> The agents wrote parts of this README. They scaffold new repos, migrate infrastructure,
+> fix bugs, and build entire websites — while I sleep.
+>
+> This isn't automation. This is **autonomous AI infrastructure**.
 
-<br/>
-
-| | |
-|---|---|
-| **Location** | Romania 🇷🇴 |
-| **Focus** | AI Agent Infrastructure · Enterprise Automation |
-| **Mission** | Replace headcount with intelligent, compounding pipelines |
-| **Stack** | Azure · Claude AI · Next.js · TypeScript |
-| **Status** | `BUILDING` — shipping daily |
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  LOCATION      Romania                                          │
+│  FOCUS         Sovereign AI Infrastructure · Agent Systems      │
+│  MISSION       Replace process with protocol. Replace           │
+│                headcount with intelligence. Build systems        │
+│                that compound while you sleep.                    │
+│  PHILOSOPHY    If an agent can do it, no human should.          │
+│  STACK         Azure · Claude AI · Next.js · TypeScript ·       │
+│                Supabase · Node.js · systemd                     │
+│  STATUS        BUILDING — daily deploys by agent swarm          │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## `> ./apex-os --info`
+## `> apex-os --capabilities`
 
 <div align="center">
 
 ```
-┌──────────────────────────────────────────────────────────────────────┐
-│                                                                      │
-│                         ◈  APEX OS                                   │
-│         The AI Agent Swarm for Enterprise Lead Generation            │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
+╔════════════════════════════════════════════════════════════════════════════╗
+║                       APEX OS  —  CAPABILITY MAP                          ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                            ║
+║   APEX OS is not a product. It's an operating system for autonomous AI.    ║
+║   Each capability is a subsystem. Each subsystem is agent-operated.        ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
 
-**APEX OS** is an AI-powered SaaS platform built for enterprise SMBs that need to scale
-without scaling headcount. An autonomous agent swarm — orchestrated, monitored, and deployed
-on Microsoft Azure — handles the entire lead-gen and outreach pipeline from discovery to
-booked call.
+```
+┌──────────────────────────────────────────────────────────────────────────┐
+│  ◈  AGENT SWARM ENGINE                                                   │
+│     5 persistent AI agents (3 Sonnet devs + 1 Opus reviewer +           │
+│     1 Opus orchestrator) running as systemd services on Azure.           │
+│     Task queue via Supabase. Optimistic locking. Automatic retries.     │
+│     Agents receive tasks via Telegram, triage them, plan PRDs,          │
+│     execute code, push branches, open PRs, review, and report back.    │
+├──────────────────────────────────────────────────────────────────────────┤
+│  ◈  SELF-HEALING INFRASTRUCTURE                                         │
+│     3-layer protection: Gateway process tracking (120s kill timer),     │
+│     Watchdog supervisor (heartbeat monitoring, stuck task detection,    │
+│     automatic service restart), systemd unit hardening (KillMode,      │
+│     ReadWritePaths, NoNewPrivileges). Zero-downtime self-recovery.     │
+├──────────────────────────────────────────────────────────────────────────┤
+│  ◈  SOVEREIGN GOVERNANCE                                                │
+│     One AGENTS.md to rule them all. Pointer-based sync protocol        │
+│     across 49 repositories. Canonical source of truth in Nico Archive. │
+│     Skills propagation. Cross-repo compliance. RBAC tiers (ZOE/CODEX): │
+│     orchestrators read-only, workers execution-tier.                    │
+├──────────────────────────────────────────────────────────────────────────┤
+│  ◈  SKILLS ENGINE                                                        │
+│     70+ reusable skills that agents invoke dynamically.                  │
+│     Production signals → SKILL.md files → agent capability upgrades.    │
+│     Recursive learning: agents learn from failures and encode fixes     │
+│     as skills for future sessions. Skills scan, register, propagate.   │
+├──────────────────────────────────────────────────────────────────────────┤
+│  ◈  AI-POWERED LEAD GENERATION                                          │
+│     6-stage enrichment pipeline: Discovery → Scraping → Enrichment →   │
+│     Scoring → Qualification → Outreach. Vertical-specific targeting.   │
+│     Campaign orchestration with send, re-enrich, and go-big endpoints. │
+│     Review queue with auto-promote. CRM integration.                    │
+├──────────────────────────────────────────────────────────────────────────┤
+│  ◈  WHATSAPP AUTOMATION                                                  │
+│     Self-hosted multi-session WhatsApp gateway (Baileys).               │
+│     Admin/customer tier boundary enforcement. Claude-powered            │
+│     conversational AI with tool routing. Media handling pipeline.       │
+│     Systemd-managed container apps with session reliability protocol.  │
+├──────────────────────────────────────────────────────────────────────────┤
+│  ◈  CONTENT INTELLIGENCE                                                 │
+│     AI-powered content pipeline: research → generation → curation →    │
+│     publishing. Monster scraper infrastructure for data acquisition.   │
+│     Skills extraction from content. Knowledge base in Nico Archive.    │
+├──────────────────────────────────────────────────────────────────────────┤
+│  ◈  ACADEMY PLATFORM                                                     │
+│     Gamified AI-powered learning platform. Second Brain integration.   │
+│     Agent-powered curriculum generation. Preview deployments.          │
+│     InfoAcademy.uk — live platform.                                     │
+└──────────────────────────────────────────────────────────────────────────┘
+```
 
-<br/>
+---
 
-| Capability | Details |
-|---|---|
-| **What it does** | End-to-end lead generation, qualification, outreach, and follow-up automation |
-| **Who it's for** | Enterprise SMBs ready to replace manual sales ops with AI agent pipelines |
-| **Infrastructure** | Azure-native, Claude AI backbone, real-time agent coordination |
-| **Differentiator** | Fully autonomous — agents plan, execute, and adapt without human intervention |
-| **Pricing model** | SaaS — subscription tiers based on pipeline volume |
-| **Status** | `LIVE` — Active client deployments running |
-
-<br/>
+## `> swarm --status --verbose`
 
 <div align="center">
 
-[![APEX OS — Launch Product](https://img.shields.io/badge/APEX%20OS-Launch%20Product-00f7ff?style=for-the-badge&labelColor=080810&logo=rocket&logoColor=00f7ff)](https://apex.InfoAcademy.uk)
-[![InfoAcademy](https://img.shields.io/badge/InfoAcademy-Platform-ff00cc?style=for-the-badge&labelColor=080810&logo=graduation-cap&logoColor=ff00cc)](https://infoacademy.uk/evolution)
+```
+╔═══════════════════════════════════════════════════════════════════════╗
+║                     APEX OS AGENT SWARM v2.0                          ║
+║                STATUS: ████████████████████ OPERATIONAL               ║
+╠═══════════════════════════════════════════════════════════════════════╣
+║                                                                       ║
+║              ┌────────────────────────────────┐                      ║
+║              │       ◈  A Q U I L A           │                      ║
+║              │       Orchestrator Agent        │                      ║
+║              │       Claude Opus 4-6           │                      ║
+║              │   Receives tasks via Telegram   │                      ║
+║              │   Decomposes → delegates →      │                      ║
+║              │   monitors → reports            │                      ║
+║              └──────────────┬─────────────────┘                      ║
+║                             │                                        ║
+║          ┌──────────────────┼──────────────────┐                     ║
+║          ▼                  ▼                  ▼                     ║
+║   ┌────────────┐    ┌────────────┐    ┌────────────┐                 ║
+║   │  WORKER 1  │    │  WORKER 2  │    │  WORKER 3  │                 ║
+║   │  Sonnet    │    │  Sonnet    │    │  Sonnet    │                 ║
+║   │  4-6       │    │  4-6       │    │  4-6       │                 ║
+║   │            │    │            │    │            │                 ║
+║   │ Persistent │    │ Persistent │    │ Persistent │                 ║
+║   │ systemd    │    │ systemd    │    │ systemd    │                 ║
+║   │ service    │    │ service    │    │ service    │                 ║
+║   └──────┬─────┘    └──────┬─────┘    └──────┬─────┘                 ║
+║          │                 │                 │                       ║
+║          └─────────────────┼─────────────────┘                       ║
+║                            ▼                                         ║
+║              ┌────────────────────────────────┐                      ║
+║              │       ◈  REVIEWER              │                      ║
+║              │       Quality Gate Agent        │                      ║
+║              │       Claude Opus 4-6           │                      ║
+║              │   Triage → PRD generation →     │                      ║
+║              │   Code review → Approve/Reject  │                      ║
+║              └────────────────────────────────┘                      ║
+║                                                                       ║
+║              ┌────────────────────────────────┐                      ║
+║              │       ◈  WATCHDOG              │                      ║
+║              │       Self-Healing Supervisor   │                      ║
+║              │   Heartbeat monitor · Process   │                      ║
+║              │   reaper · Token refresh ·      │                      ║
+║              │   Stuck task detection          │                      ║
+║              └────────────────────────────────┘                      ║
+║                                                                       ║
+║   ┌───────────────────────────────────────────────────────────────┐   ║
+║   │  TASK FLOW                                                    │   ║
+║   │  Telegram → Aquila → TASK_PROPOSE → /yes → Triage (Opus) →  │   ║
+║   │  PRD → Queue → Worker claims → Claude executes → PR opened → │   ║
+║   │  Review → Approve → Human merges preview                     │   ║
+║   └───────────────────────────────────────────────────────────────┘   ║
+║                                                                       ║
+║   Agents: 6/6 ACTIVE  ·  Repos: 49  ·  Skills: 70+  ·  Uptime: 99%  ║
+╚═══════════════════════════════════════════════════════════════════════╝
+```
 
 </div>
+
+```
+┌──────────────┬──────────────────┬─────────────────────────────────────┐
+│  AGENT       │  MODEL           │  ROLE                               │
+├──────────────┼──────────────────┼─────────────────────────────────────┤
+│  Aquila      │  Claude Opus 4   │  Orchestrator — plans, delegates    │
+│  Worker 1    │  Claude Sonnet 4 │  Dev — implementation & scaffolding │
+│  Worker 2    │  Claude Sonnet 4 │  Dev — integration & migration      │
+│  Worker 3    │  Claude Sonnet 4 │  Dev — content & deployment         │
+│  Reviewer    │  Claude Opus 4   │  Triage + quality gate              │
+│  Watchdog    │  Bash/systemd    │  Self-healing supervisor            │
+└──────────────┴──────────────────┴─────────────────────────────────────┘
+```
+
+---
+
+## `> cat /etc/apex/architecture.md`
+
+<div align="center">
+
+```
+╔════════════════════════════════════════════════════════════════════════════╗
+║                      APEX OS  —  SYSTEM ARCHITECTURE                      ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                            ║
+║  ┌──────────────────────────────────────────────────────────────────────┐  ║
+║  │                        COMMAND LAYER                                 │  ║
+║  │    Telegram Bot (@theapexclaw_bot)  ·  Voice + Text + Images        │  ║
+║  │    /spawn <repo> <task>  ·  /yes  ·  /no  ·  /status               │  ║
+║  └────────────────────────────────┬─────────────────────────────────────┘  ║
+║                                   │                                        ║
+║  ┌────────────────────────────────▼─────────────────────────────────────┐  ║
+║  │                     AQUILA GATEWAY  (Node.js)                        │  ║
+║  │    TASK_PROPOSE parser  ·  Multi-task creation  ·  Claude routing    │  ║
+║  │    askClaude() with process tracking  ·  120s SIGKILL failsafe     │  ║
+║  └───────┬─────────────────────┬─────────────────────┬──────────────────┘  ║
+║          │                     │                     │                      ║
+║   ┌──────▼──────┐    ┌────────▼─────────┐   ┌──────▼───────────┐          ║
+║   │   REVIEWER  │    │  WORKER SWARM    │   │   WATCHDOG       │          ║
+║   │   Opus 4-6  │    │  3x Sonnet 4-6  │   │   Bash/systemd   │          ║
+║   │  ┌────────┐ │    │  ┌────────────┐  │   │  ┌────────────┐  │          ║
+║   │  │TRIAGE  │ │    │  │ CLAIM TASK │  │   │  │ HEARTBEAT  │  │          ║
+║   │  │  PRD   │ │    │  │ WORKTREE   │  │   │  │ MONITOR    │  │          ║
+║   │  │REVIEW  │ │    │  │ CLAUDE -p  │  │   │  │ PROCESS    │  │          ║
+║   │  │APPROVE │ │    │  │ PUSH + PR  │  │   │  │ REAPER     │  │          ║
+║   │  └────────┘ │    │  └────────────┘  │   │  │ TOKEN      │  │          ║
+║   └─────────────┘    └──────────────────┘   │  │ REFRESH    │  │          ║
+║                                              │  └────────────┘  │          ║
+║                                              └──────────────────┘          ║
+║                                                                            ║
+║  ┌──────────────────────────────────────────────────────────────────────┐  ║
+║  │                       DATA LAYER  (Supabase)                         │  ║
+║  │    openclaw_tasks_v2  ·  openclaw_workers  ·  openclaw_agent_events │  ║
+║  │    Postgres  ·  Realtime subscriptions  ·  Row-Level Security       │  ║
+║  └──────────────────────────────────────────────────────────────────────┘  ║
+║                                                                            ║
+║  ┌──────────────────────────────────────────────────────────────────────┐  ║
+║  │                    GOVERNANCE LAYER                                   │  ║
+║  │    AGENTS.md §31 (Sovereign Stack)  ·  §32 (Safe Build & Deploy)    │  ║
+║  │    RBAC: ZOE (read-only orchestrator) / CODEX (execution workers)   │  ║
+║  │    Skills Engine: 70+ skills  ·  Auto-propagation across repos      │  ║
+║  │    repo-inventory.json: routing rules for 17+ active repos          │  ║
+║  └──────────────────────────────────────────────────────────────────────┘  ║
+║                                                                            ║
+║  ┌──────────────────────────────────────────────────────────────────────┐  ║
+║  │                   AZURE INFRASTRUCTURE                               │  ║
+║  │    VM: openclaw-gateway-01  ·  WireGuard VPN  ·  Fortress NSG      │  ║
+║  │    systemd services  ·  Bare git repos  ·  Git worktrees            │  ║
+║  │    UFW + fail2ban  ·  No public SSH  ·  WireGuard-only access       │  ║
+║  └──────────────────────────────────────────────────────────────────────┘  ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│  DESIGN PRINCIPLES                                                     │
+├────────────────────────────────────────────────────────────────────────┤
+│                                                                        │
+│  AGENT-FIRST        Every operation is an agent task. No manual        │
+│                     scripts. No SSH-and-pray. Agents all the way.     │
+│                                                                        │
+│  SELF-GOVERNING     One canonical AGENTS.md governs all 49 repos.     │
+│                     Pointer files. No duplication. One truth.          │
+│                                                                        │
+│  SELF-HEALING       3-layer protection. If a process dies, the        │
+│                     watchdog restarts it. If a task stalls, it gets   │
+│                     re-queued. If a worker crashes, systemd revives.  │
+│                                                                        │
+│  SELF-LEARNING      Skills engine captures production failures as     │
+│                     reusable SKILL.md files. Agents get smarter       │
+│                     with every deployment. Recursive improvement.     │
+│                                                                        │
+│  ZERO-TRUST         Workers run in isolated HOME directories.         │
+│                     Orchestrator is read-only (ZOE tier).             │
+│                     Workers get execution permissions (CODEX tier).    │
+│                     Agents deploy to PREVIEW only. Never production.  │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## `> ls repos/ --by-subsystem`
+
+```
+╔════════════════════════════════════════════════════════════════════════════╗
+║                         REPOSITORY MAP  (49 repos)                        ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                            ║
+║   CORE INFRASTRUCTURE                                                      ║
+║   ├── apex-os-core              Agent orchestration, gateway, workers      ║
+║   ├── apex-os-skills-engine     Recursive skill learning & propagation     ║
+║   ├── sovereign-governance      Multi-repo governance protocol             ║
+║   ├── apex-os-docs              System documentation hub                   ║
+║   ├── nico-archive              Second Brain — canonical knowledge base    ║
+║   └── apex-ops-state            Head of Ops state, GTM, security           ║
+║                                                                            ║
+║   LEAD GENERATION & SALES                                                  ║
+║   ├── apex-lead-gen             6-stage AI enrichment pipeline             ║
+║   ├── lead-gen-api              API server — campaigns, scoring, outreach  ║
+║   ├── apex-crm                  Customer relationship management           ║
+║   ├── apex-os-sales             Sales site (Next.js)                       ║
+║   ├── saas-scout                Market gap discovery via AI                ║
+║   └── monster-scraper           Data acquisition infrastructure            ║
+║                                                                            ║
+║   COMMUNICATION & AUTOMATION                                               ║
+║   ├── whatsapp-automation-apexos  Multi-session WhatsApp gateway           ║
+║   ├── apex-claude-vm              Claude Code HTTP API wrapper             ║
+║   └── vibe-coder-dashboard        Marketing automation platform            ║
+║                                                                            ║
+║   PLATFORMS & PRODUCTS                                                     ║
+║   ├── apex-os-website-v3        Corporate site (Next.js 16 + Tailwind v4)  ║
+║   ├── apex-os-vibe              OS for the AI Age — product platform       ║
+║   ├── apex-os-playground        Experimental apps & dashboards             ║
+║   ├── apex-os-academy-preview   Gamified learning with Second Brain        ║
+║   └── leadgen-platform          Full-stack lead gen SaaS                   ║
+║                                                                            ║
+║   CONTENT & INTELLIGENCE                                                   ║
+║   ├── apex-os-bad-boy           45+ skill productivity system (public)     ║
+║   ├── monster-skills            Skills extracted from content pipeline      ║
+║   ├── content-intelligence-hub  AI content pipeline                        ║
+║   └── chatgpt-skills-system     Cross-model skill compatibility            ║
+║                                                                            ║
+║   TOOLING & OPERATIONS                                                     ║
+║   ├── apex-os-cli-v2            CLI interface                              ║
+║   ├── mission-control           Operations dashboard                       ║
+║   ├── apex-os-deploy            Deployment automation                      ║
+║   └── apex-os-prod-recovery     Production recovery procedures             ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+```
 
 ---
 
@@ -156,124 +412,28 @@ booked call.
 ![Claude AI](https://img.shields.io/badge/Claude%20AI-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![systemd](https://img.shields.io/badge/systemd-2C2C2C?style=for-the-badge&logo=linux&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 </div>
 
-<br/>
-
-| Technology | Role in Stack |
-|---|---|
-| **Next.js** | Frontend framework — dashboard, agent control plane UI |
-| **TypeScript** | Type-safe agent orchestration and API layer |
-| **Supabase** | Database · Auth · Real-time subscriptions for agent state |
-| **Azure** | Cloud infrastructure — agent workers, containers, queues |
-| **Claude AI** | AI backbone — powers all reasoning and generation agents |
-| **Node.js** | Agent runtime and backend microservices |
-| **Tailwind CSS** | Utility-first styling for rapid dashboard iteration |
-| **Framer Motion** | Animation layer for agent status and live pipeline UI |
-
----
-
-## `> apex-os --architecture`
-
-<div align="center">
-
 ```
-╔══════════════════════════════════════════════════════════════════════════╗
-║                    APEX OS  —  SYSTEM ARCHITECTURE                      ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║                                                                          ║
-║   ┌──────────────────────────────────────────────────────────────────┐  ║
-║   │                     CLIENT DASHBOARD  (Next.js)                  │  ║
-║   │          Pipeline view · Agent monitor · Metrics · Config        │  ║
-║   └────────────────────────────┬─────────────────────────────────────┘  ║
-║                                │ HTTPS / WebSocket                      ║
-║   ┌────────────────────────────▼─────────────────────────────────────┐  ║
-║   │                   APEX OS  API GATEWAY  (Node.js)                │  ║
-║   │          Auth (Supabase) · Rate limiting · Agent routing          │  ║
-║   └───────┬────────────────────┬──────────────┬────────────────────── ┘  ║
-║           │                    │              │                          ║
-║    ┌──────▼──────┐  ┌──────────▼───────┐  ┌──▼────────────┐            ║
-║    │  AQUILA     │  │  WORKER SWARM    │  │  REVIEWER     │            ║
-║    │ Orchestrator│  │  (N workers)     │  │  Quality Gate │            ║
-║    │ Claude Opus │  │  Claude Sonnet   │  │  Claude Opus  │            ║
-║    │  [ PLANS ]  │  │  [ EXECUTES ]    │  │  [ VALIDATES ]│            ║
-║    └──────┬──────┘  └──────────┬───────┘  └──┬────────────┘            ║
-║           │                    │              │                          ║
-║   ┌───────▼────────────────────▼──────────────▼────────────────────── ┐ ║
-║   │                    AZURE INFRASTRUCTURE                           │ ║
-║   │    Container Apps · Service Bus · Blob Storage · Key Vault        │ ║
-║   └──────────────────────────────┬────────────────────────────────────┘ ║
-║                                  │                                       ║
-║   ┌──────────────────────────────▼────────────────────────────────────┐ ║
-║   │                     SUPABASE  DATA LAYER                          │ ║
-║   │        Postgres · Auth · Realtime subscriptions · Vectors         │ ║
-║   └───────────────────────────────────────────────────────────────────┘ ║
-║                                                                          ║
-╚══════════════════════════════════════════════════════════════════════════╝
+┌──────────────────┬─────────────────────────────────────────────────────┐
+│  TECHNOLOGY      │  ROLE                                               │
+├──────────────────┼─────────────────────────────────────────────────────┤
+│  Claude AI       │  Agent backbone — all reasoning, code gen, review   │
+│  Azure VM        │  Infrastructure — agent workers run as services     │
+│  Supabase        │  Data layer — task queue, state, realtime, auth     │
+│  Next.js         │  Frontend — dashboards, agent control plane, sites  │
+│  TypeScript      │  Type-safe orchestration and API layer              │
+│  Node.js         │  Gateway runtime, agent process management          │
+│  systemd         │  Service supervision — workers, reviewer, watchdog  │
+│  WireGuard       │  Zero-trust VPN — fortress-mode VM access           │
+│  Tailwind CSS    │  Utility-first styling for rapid UI iteration       │
+│  Framer Motion   │  Animation layer for live agent status UI           │
+└──────────────────┴─────────────────────────────────────────────────────┘
 ```
-
-</div>
-
-### Architecture Principles
-
-| Principle | Implementation |
-|---|---|
-| **Agent-first design** | Every operation is an agent task — no manual scripts |
-| **Fault-tolerant** | Worker failures auto-recovered by Aquila orchestrator |
-| **Observable** | All agent actions logged, traced, and surfaced in dashboard |
-| **Horizontally scalable** | Worker count scales with pipeline demand via Azure Container Apps |
-| **Context-aware** | Agents share state through Supabase realtime + structured memory |
-
----
-
-## `> swarm --status --verbose`
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════════════════╗
-║                    APEX OS AGENT SWARM v1.0                       ║
-║                    STATUS: ██████████ ONLINE                      ║
-╠═══════════════════════════════════════════════════════════════════╣
-║                                                                   ║
-║              ┌─────────────────────────┐                         ║
-║              │  ◈  AQUILA              │                         ║
-║              │     Orchestrator Agent  │                         ║
-║              │     claude-opus-4-6     │                         ║
-║              │     [ COMMANDING ]      │                         ║
-║              └──────────┬──────────────┘                         ║
-║                         │                                        ║
-║          ┌──────────────┼──────────────┐                         ║
-║          ▼              ▼              ▼                         ║
-║   ┌──────────┐   ┌──────────┐   ┌──────────┐                    ║
-║   │ WORKER 1 │   │ WORKER 2 │   │ WORKER 3 │                    ║
-║   │ Sonnet   │   │ Sonnet   │   │ Sonnet   │                    ║
-║   │ 4-6      │   │ 4-6      │   │ 4-6      │                    ║
-║   │[BUILDING]│   │[BUILDING]│   │[BUILDING]│                    ║
-║   └──────────┘   └──────────┘   └──────────┘                    ║
-║                         │                                        ║
-║              ┌──────────▼──────────────┐                         ║
-║              │  ◈  REVIEWER            │                         ║
-║              │     Quality Gate Agent  │                         ║
-║              │     claude-opus-4-6     │                         ║
-║              │     [ REVIEWING ]       │                         ║
-║              └─────────────────────────┘                         ║
-║                                                                   ║
-║  Agents: 5/5 ACTIVE  ·  Tasks: RUNNING  ·  Uptime: 99.9%        ║
-╚═══════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-| Agent | Model | Role | Status |
-|-------|-------|------|--------|
-| **Aquila** | `claude-opus-4-6` | Orchestrator — plans, delegates, coordinates | ![ONLINE](https://img.shields.io/badge/ONLINE-00f7ff?style=flat-square&labelColor=080810) |
-| **Worker 1** | `claude-sonnet-4-6` | Dev worker — implementation & code | ![ACTIVE](https://img.shields.io/badge/ACTIVE-7b5ea7?style=flat-square&labelColor=080810) |
-| **Worker 2** | `claude-sonnet-4-6` | Dev worker — testing & integration | ![ACTIVE](https://img.shields.io/badge/ACTIVE-7b5ea7?style=flat-square&labelColor=080810) |
-| **Worker 3** | `claude-sonnet-4-6` | Dev worker — content & deployment | ![ACTIVE](https://img.shields.io/badge/ACTIVE-7b5ea7?style=flat-square&labelColor=080810) |
-| **Reviewer** | `claude-opus-4-6` | Quality gate — validation & approval | ![REVIEWING](https://img.shields.io/badge/REVIEWING-ff00cc?style=flat-square&labelColor=080810) |
 
 ---
 
@@ -301,12 +461,14 @@ booked call.
 [![APEX OS](https://img.shields.io/badge/APEX%20OS-00f7ff?style=for-the-badge&logo=rocket&logoColor=black&labelColor=080810)](https://apex.InfoAcademy.uk)
 
 ```
-┌──────────────────────────────────────────────────────────────────────┐
-│  X/Twitter  ·  @nicofratila     →  https://x.com/nicofratila         │
-│  LinkedIn   ·  /in/nicofratila  →  linkedin.com/in/nicofratila       │
-│  InfoAcademy                    →  infoacademy.uk/evolution           │
-│  APEX OS    ·  Product          →  apex.InfoAcademy.uk               │
-└──────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────┐
+│                                                                          │
+│   X/Twitter     @nicofratila      https://x.com/nicofratila              │
+│   LinkedIn      /in/nicofratila   linkedin.com/in/nicofratila            │
+│   InfoAcademy   Platform          infoacademy.uk/evolution                │
+│   APEX OS       Product           apex.InfoAcademy.uk                    │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
 </div>
@@ -316,15 +478,17 @@ booked call.
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║         APEX OS — Built by agents. Run by Nico.             ║
-║                                                              ║
-║         [ fratilanico ]  ·  2026  ·  All systems go.        ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════════════╗
+║                                                                        ║
+║         APEX OS — The operating system for autonomous AI.             ║
+║                                                                        ║
+║         Built by agents. Governed by protocol. Commanded by Nico.     ║
+║                                                                        ║
+║         [ fratilanico ]  ·  2026  ·  All systems operational.         ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
 ```
 
-*Autonomous. Intelligent. Unstoppable.*
+*Sovereign. Autonomous. Unstoppable.*
 
 </div>
