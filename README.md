@@ -94,7 +94,7 @@
   <line x1="260" y1="82" x2="440" y2="82" stroke="url(#cardBorder)" stroke-width="0.5" opacity="0.4"/>
   <text x="350" y="102" text-anchor="middle" font-family="'Courier New', monospace"
         font-size="12" fill="#c9d1d9" letter-spacing="1.5" opacity="0.8">
-    Romania  ·  Building the agent age
+    London/Bucharest  ·  Building the agent age
   </text>
   <text x="350" y="125" text-anchor="middle" font-family="'Courier New', monospace"
         font-size="10" fill="#cc00ff" letter-spacing="2" opacity="0.6">
