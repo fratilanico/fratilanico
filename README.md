@@ -98,7 +98,11 @@
   </text>
   <text x="350" y="125" text-anchor="middle" font-family="'Courier New', monospace"
         font-size="10" fill="#cc00ff" letter-spacing="2" opacity="0.6">
-   · Agents that build agents ·  Self-Governing Infrastructure ·
+   
+  </text>
+  <text x="450" y="155" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="11" fill="url(#subtitleGrad)" letter-spacing="2" opacity="0.7">
+    · Agents that build agents ·  Self-Governing Infrastructure ·
   </text>
   <rect x="1" y="1" width="698" height="138" rx="9" ry="9"
         fill="none" stroke="url(#cardBorder)" stroke-width="1" opacity="0.3"/>
