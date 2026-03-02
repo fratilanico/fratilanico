@@ -132,14 +132,14 @@ $ cat /etc/apex/identity.conf
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
-│  LOCATION      Romania                                          │
+│  LOCATION      London / Bucharest                               │
 │  FOCUS         Sovereign AI Infrastructure · Agent Systems      │
 │  MISSION       Replace process with protocol. Replace           │
 │                headcount with intelligence. Build systems       │
 │                that compound while you sleep.                   │
 │  PHILOSOPHY    If an agent can do it, no human should.          │
-│  STACK         Azure · Claude AI · Next.js · TypeScript ·       │
-│                Supabase · Node.js · systemd                     │
+│  STACK         Azure · Claude AI · Gemini · Codex · Next.js     │
+│                Supabase · Node.js · systemd · TypeScript        │
 │  STATUS        BUILDING — daily deploys by agent swarm          │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
@@ -343,8 +343,8 @@ $ cat /etc/apex/identity.conf
 ║  │    Telegram Bot (@theapexclaw_bot)  ·  Voice + Text + Images         │  ║
 ║  │    /spawn <repo> <task>  ·  /yes  ·  /no  ·  /status                 │  ║
 ║  └────────────────────────────┬─────────────────────────────────────────┘  ║
-║                               │                                        ║
-║  ┌────────────────────────────▼─────────────────────────────────────┐  ║
+║                               │                                            ║
+║  ┌────────────────────────────▼─────────────────────────────────────────┐  ║
 ║  │                     AQUILA GATEWAY  (Node.js)                        │  ║
 ║  │    TASK_PROPOSE parser  ·  Multi-task creation  ·  Claude routing    │  ║
 ║  │    askClaude() with process tracking  ·  120s SIGKILL failsafe       │  ║
@@ -510,7 +510,7 @@ $ cat /etc/apex/identity.conf
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  WORKING WITH ME                                                         │
+│  WORKING WITH ME                                                        │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
 │  If you're building a startup, product, or AI system and you need:      │
@@ -519,13 +519,13 @@ $ cat /etc/apex/identity.conf
 │     & AGENT ARCHITECTURE     without constant human supervision.        │
 │                                                                         │
 │  ◈  AI-POWERED LEAD GEN      End-to-end pipeline from discovery to      │
-│     & SALES INFRASTRUCTURE   enriched, qualified, outreach-ready.      │
+│     & SALES INFRASTRUCTURE   enriched, qualified, outreach-ready.       │
 │                                                                         │
 │  ◈  SOVEREIGN INFRASTRUCTURE Self-healing, self-governing systems on    │
 │     DESIGN                   Azure that run autonomously 24/7.          │
 │                                                                         │
 │  ◈  RAPID PRODUCT BUILDS     Agent-scaffolded Next.js + Supabase        │
-│     WITH AI ACCELERATION     products shipped in days, not months.     │
+│     WITH AI ACCELERATION     products shipped in days, not months.      │
 │                                                                         │
 ├─────────────────────────────────────────────────────────────────────────┤
 │  CURRENTLY BUILDING FOR:                                                │
@@ -572,7 +572,7 @@ $ cat /etc/apex/identity.conf
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  LATEST SHIPPED  —  Agent-Deployed Momentum                              │
+│  LATEST SHIPPED  —  Agent-Deployed Momentum                             │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
 │  ✓  apex-os-playground      Experimental apps & agent dashboards        │
@@ -582,21 +582,21 @@ $ cat /etc/apex/identity.conf
 │     └── 70+ skills auto-deployed and synced across 49 repositories      │
 │                                                                         │
 │  ✓  apex-lead-gen           6-stage AI enrichment pipeline              │
-│     └── Discovery → scraping → enrichment → scoring → outreach         │
+│     └── Discovery → scraping → enrichment → scoring → outreach          │
 │                                                                         │
 │  ✓  fratilanico profile     This README — written & deployed by agent   │
 │     └── SVG identity card, swarm diagram, ASCII architecture map        │
 │                                                                         │
 │  ✓  sovereign-governance    Multi-repo governance protocol              │
-│     └── AGENTS.md pointer sync across all 49 repos                     │
+│     └── AGENTS.md pointer sync across all 49 repos                      │
 │                                                                         │
 ├─────────────────────────────────────────────────────────────────────────┤
 │  ◷  ACTIVE BUILDS:                                                      │
 │                                                                         │
-│  ├── InfoAcademy platform  — gamified AI learning (in progress)        │
+│  ├── InfoAcademy platform  — gamified AI learning (in progress)         │
 │  ├── APEX OS website v3    — corporate site rebuild (Next.js 16)        │
 │  ├── apex-os-playground    — new agent demo modules shipping weekly     │
-│  └── Sovereign governance  — expanding coverage: 49 → 60+ repos        │
+│  └── Sovereign governance  — expanding coverage: 49 → 60+ repos         │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
