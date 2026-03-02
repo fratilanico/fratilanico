@@ -94,13 +94,11 @@
   <line x1="260" y1="82" x2="440" y2="82" stroke="url(#cardBorder)" stroke-width="0.5" opacity="0.4"/>
   <text x="350" y="102" text-anchor="middle" font-family="'Courier New', monospace"
         font-size="12" fill="#c9d1d9" letter-spacing="1.5" opacity="0.8">
-    London/Bucharest  ·  
-    Building the agent age 
+    London/Bucharest  ·  Building the agent age 
   </text>
   <text x="350" y="125" text-anchor="middle" font-family="'Courier New', monospace"
         font-size="10" fill="#cc00ff" letter-spacing="2" opacity="0.6">
-   · Agents that build agents · 
-    Self-Governing Infrastructure ·
+   · Agents that build agents ·  Self-Governing Infrastructure ·
   </text>
   <rect x="1" y="1" width="698" height="138" rx="9" ry="9"
         fill="none" stroke="url(#cardBorder)" stroke-width="1" opacity="0.3"/>
