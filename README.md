@@ -1,31 +1,31 @@
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║           █████╗ ██████╗ ███████╗██╗  ██╗      ██████╗ ███████╗              ║
-║          ██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝     ██╔═══██╗██╔════╝              ║
-║          ███████║██████╔╝█████╗   ╚███╔╝      ██║   ██║███████╗              ║
-║          ██╔══██║██╔═══╝ ██╔══╝   ██╔██╗      ██║   ██║╚════██║              ║
-║          ██║  ██║██║     ███████╗██╔╝ ██╗     ╚██████╔╝███████║              ║
-║          ╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝      ╚═════╝ ╚══════╝              ║
-║                                                                              ║
-║            [ SOVEREIGN AI INFRASTRUCTURE ]                                   ║
-║            Built by agents. Governed by protocol. Commanded by Nico.         ║
-║                                                                              ║
+║                                                                                            ║
+║            █████╗ ██████╗ ███████╗██╗  ██╗     ██████╗ ███████╗                     ║
+║          ██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝    ██╔═══██╗██╔════╝                    ║
+║          ███████║██████╔╝█████╗   ╚███╔╝      ██║   ██║███████╗                     ║
+║          ██╔══██║██╔═══╝ ██╔══╝   ██╔██╗      ██║   ██║╚════██║                     ║
+║          ██║  ██║██║     ███████╗██╔╝ ██╗     ╚██████╔╝███████║                     ║
+║          ╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝      ╚═════╝ ╚══════╝                     ║
+║                                                                                            ║
+║            [ SOVEREIGN AI INFRASTRUCTURE ]                                                 ║
+║            Built by agents. Governed by protocol. Commanded by Nico.                       ║
+║                                                                                            ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║  NICOLAE FRATILA  ·  Founder & CEO                                           ║
-║  London / Bucharest  ·  Building the agent age                               ║
+║  NICOLAE FRATILA  ·  Founder & CEO                                                         ║
+║  London / Bucharest  ·  Building the agent age                                             ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  LOCATION    London / Bucharest                                              ║
-║  FOCUS       Sovereign AI Infrastructure · Autonomous Agent Swarms           ║
-║  MISSION     Replace process with protocol. Replace headcount                ║
-║              with intelligence. Build systems that compound while you sleep. ║
-║  PHILOSOPHY  If an agent can do it, no human should have to.                 ║
-║  STACK       Azure · Claude AI · Next.js · Supabase · systemd                ║
-║  STATUS      BUILDING — daily deploys by agent swarm                         ║
+║  LOCATION    London / Bucharest                                                            ║
+║  FOCUS       Sovereign AI Infrastructure · Autonomous Agent Swarms                         ║
+║  MISSION     Replace process with protocol. Replace headcount                              ║
+║              with intelligence. Build systems that compound while you sleep.               ║
+║  PHILOSOPHY  If an agent can do it, no human should have to.                               ║
+║  STACK       Azure · Claude AI · Next.js · Supabase · systemd                              ║
+║  STATUS      BUILDING — daily deploys by agent swarm                                       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -57,36 +57,36 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                    APEX OS AGENT SWARM v2.0  ·  ● OPERATIONAL               ║
+║                    APEX OS AGENT SWARM v2.0  ·  ● OPERATIONAL                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║                         ┌─────────────────────┐                             ║
-║                         │       AQUILA         │                             ║
-║                         │   Orchestrator       │                             ║
-║                         │  Claude Sonnet 4-6   │                             ║
-║                         │  Telegram → Delegate │                             ║
-║                         │  [ ZOE · READ-ONLY ] │                             ║
-║                         └──────────┬──────────┘                             ║
-║                    ┌───────────────┼───────────────┐                        ║
-║                    ▼               ▼               ▼                        ║
-║           ┌─────────────┐ ┌─────────────┐ ┌─────────────┐                  ║
-║           │  WORKER 1   │ │  WORKER 2   │ │  WORKER 3   │                  ║
-║           │Sonnet 4-6   │ │Sonnet 4-6   │ │Sonnet 4-6   │                  ║
-║           │Impl & Scaff │ │Integr & Mig │ │Content & Dep│                  ║
-║           │[CODEX TIER] │ │[CODEX TIER] │ │[CODEX TIER] │                  ║
-║           └──────┬──────┘ └──────┬──────┘ └──────┬──────┘                  ║
-║                  └───────────────┼───────────────┘                          ║
-║                                  ▼                                           ║
-║                         ┌─────────────────────┐                             ║
-║                         │      REVIEWER        │                             ║
-║                         │  Claude Opus 4-6     │                             ║
-║                         │  Triage · PRD        │                             ║
-║                         │  Review · Approve    │                             ║
-║                         └─────────────────────┘                             ║
-║                                                                              ║
-║   ···  WATCHDOG  ···  Heartbeat · Process Reaper · Token Refresh · Self-Heal ║
-║                                                                              ║
-║   Agents: 6/6 ACTIVE  ·  Repos: 49  ·  Skills: 70+  ·  Uptime: 99%          ║
+║                                                                                            ║
+║                         ┌─────────────────────┐                                        ║
+║                         │       AQUILA            │                                        ║
+║                         │   Orchestrator          │                                        ║
+║                         │  Claude Sonnet 4-6.     │                                        ║
+║                         │  Telegram → Delegate.  │                                        ║
+║                         │  [ ZOE · READ-ONLY ]    │                                        ║
+║                         └──────────┬──────────┘                                        ║
+║                   ┌───────────────┼───────────────┐                                  ║
+║                   ▼                 ▼                 ▼                                  ║
+║           ┌─────────────┐ ┌─────────────┐ ┌─────────────┐                          ║
+║           │  WORKER 1      │   │  WORKER 2   │ │  WORKER 3      │                          ║
+║           │Sonnet 4-6      │   │Sonnet 4-6   │ │Sonnet 4-6.     │                          ║
+║           │Impl & Scaff.   │   │Integr & Mig │ │Content & Dep.  │                          ║
+║           │[CODEX TIER]    │   │[CODEX TIER] │ │[CODEX TIER]    │                          ║
+║           └──────┬──────┘ └──────┬──────┘ └──────┬──────┘                          ║
+║                   └───────────────┼───────────────┘                                  ║
+║                                      ▼                                                    ║
+║                         ┌─────────────────────┐                                        ║
+║                         │      REVIEWER           │                                        ║
+║                         │  Claude Opus 4-6.       │                                        ║
+║                         │  Triage · PRD           │                                        ║
+║                         │  Review · Approve       │                                        ║
+║                         └─────────────────────┘                                        ║
+║                                                                                            ║
+║   ···  WATCHDOG  ···  Heartbeat · Process Reaper · Token Refresh · Self-Heal.              ║
+║                                                                                            ║
+║   Agents: 6/6 ACTIVE  ·  Repos: 49  ·  Skills: 70+  ·  Uptime: 99%                         ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -161,14 +161,14 @@
 ║  │  AQUILA GATEWAY (Node.js)                                             │   ║
 ║  │  TASK_PROPOSE parser · Claude routing · 120s SIGKILL failsafe        │   ║
 ║  └───────┬──────────────────────┬──────────────────────┬────────────────┘   ║
-║          ▼                      ▼                      ▼                    ║
+║           ▼                          ▼                         ▼                    ║
 ║  ┌──────────────┐   ┌────────────────────┐   ┌──────────────────────┐      ║
-║  │   REVIEWER   │   │   WORKER SWARM     │   │      WATCHDOG        │      ║
-║  │  Opus 4-6    │   │   3× Sonnet 4-6    │   │  Bash + systemd      │      ║
-║  │  Triage/PRD  │   │  Worktree per task │   │  Heartbeat · Reaper  │      ║
-║  │  Review/LGTM │   │  claude --print    │   │  Token refresh       │      ║
-║  └──────────────┘   │  git push + PR     │   │  Auto restart        │      ║
-║                     └────────────────────┘   └──────────────────────┘      ║
+║  │   REVIEWER      │   │   WORKER SWARM         │   │      WATCHDOG            │      ║
+║  │  Opus 4-6       │   │   3× Sonnet 4-6        │   │  Bash + systemd          │      ║
+║  │  Triage/PRD     │   │  Worktree per task.    │   │  Heartbeat · Reaper.     │      ║
+║  │  Review/LGTM.   │   │  claude --print        │   │  Token refresh           │      ║
+║  └──────────────┘   │  git push + PR         │   │  Auto restart            │      ║
+║                        └────────────────────┘   └──────────────────────┘      ║
 ║                                                                              ║
 ║  ┌──────────────────────────────────────────────────────────────────────┐   ║
 ║  │  DATA LAYER — Supabase                                                │   ║
